@@ -1,12 +1,13 @@
-import ComponentName from "@/components/atoms/ComponentName";
+//Components
+import ComponentNameContainer from "@/components/atoms/ComponentNameContainer";
 
 export default function Saying() {
 	return (
-		<ComponentName name="Saying">
+		<ComponentNameContainer name="Saying">
 			<div className="bg-gradient-to-r from-primary to-primary-dark text-white  py-2 px-4 rounded-full">
 				“Her saniye üretken olmak için kendini zorlamayı bırak.”{" "}
 				<span className="font-black">-İsim Soyisim</span>
 			</div>
-		</ComponentName>
+		</ComponentNameContainer>
 	);
 }
