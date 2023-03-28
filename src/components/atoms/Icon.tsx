@@ -14,6 +14,7 @@ export default function Icon({ className, name }: Props) {
 				className="w-full h-full"
 				src={`images/icons/${name}.svg`}
 				alt={name}
+				title={name}
 			/>
 		</div>
 	);
