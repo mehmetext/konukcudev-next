@@ -1,5 +1,10 @@
-import React from "react";
+//Components
+import WelcomeSection from "../organisms/HomeTemplate/WelcomeSection";
 
 export default function HomeTemplate() {
-	return <div>HomeTemplate</div>;
+	return (
+		<div>
+			<WelcomeSection />
+		</div>
+	);
 }
