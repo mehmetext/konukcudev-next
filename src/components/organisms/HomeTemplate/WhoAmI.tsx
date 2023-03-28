@@ -9,16 +9,16 @@ export default function WhoAmI() {
 	return (
 		<Container>
 			<ComponentNameContainer name="WhoAmI">
-				<div className="bg-bright w-full p-8 rounded-2xl rounded-tr-[96px] flex gap-8">
-					<div className="w-[180px] h-[180px] shrink-0 rounded-2xl overflow-hidden">
+				<div className="bg-bright w-full p-4 md:p-8 rounded-2xl md:rounded-tr-[96px] flex gap-4 md:gap-8 flex-col md:flex-row">
+					<div className="shrink-0 flex justify-center">
 						<img
-							className="w-full h-full"
+							className="w-[180px] h-[180px] rounded-2xl"
 							src="/images/profile.jpeg"
 							alt="Me!"
 						/>
 					</div>
 					<div className="flex flex-col gap-2.5">
-						<h1 className="font-black text-4xl text-darken">
+						<h1 className="font-black text-center md:text-left text-xl sm:text-4xl text-darken">
 							Selam, Ben <span className="text-primary">Mehmet</span>! 💫
 						</h1>
 						<SyntaxHighlighter
@@ -27,6 +27,7 @@ export default function WhoAmI() {
 							customStyle={{
 								borderRadius: 4,
 								background: "#333",
+								margin: 0,
 							}}
 							wrapLongLines
 						>
