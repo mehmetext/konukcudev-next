@@ -2,6 +2,9 @@
 import ComponentNameContainer from "@/components/atoms/ComponentNameContainer";
 import Container from "@/components/atoms/Container";
 
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { darcula } from "react-syntax-highlighter/dist/cjs/styles/prism";
+
 export default function WhoAmI() {
 	return (
 		<Container>
@@ -18,10 +21,18 @@ export default function WhoAmI() {
 						<h1 className="font-black text-4xl text-darken">
 							Selam, Ben <span className="text-primary">Mehmet</span>! 💫
 						</h1>
-						<div className="bg-darken text-white p-2 rounded font-mono font-normal">
-							const Mehmet = [“Frontend Developer”, “Mobile Application
-							Developer”];
-						</div>
+						<SyntaxHighlighter
+							language="javascript"
+							style={darcula}
+							customStyle={{
+								borderRadius: 4,
+								background: "#333",
+							}}
+							wrapLongLines
+						>
+							const Mehmet = ["Frontend Developer", "Mobile Application
+							Developer"];
+						</SyntaxHighlighter>
 						<p className="text-darken">
 							2001 yılının Temmuz ayının 12. günü, hayalleri peşinde koşmak ve
 							hayallerine ulaşmak için dünyaya gelen Mehmet, işte benim.
