@@ -13,7 +13,7 @@ import WhoAmI from "../organisms/HomeTemplate/WhoAmI";
 
 export default function HomeTemplate() {
 	return (
-		<MainLayout>
+		<MainLayout stickyMenu={false}>
 			<WelcomeSection />
 			<WhoAmI />
 			<ExperiencesEducation />

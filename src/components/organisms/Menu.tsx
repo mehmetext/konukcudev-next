@@ -5,9 +5,18 @@ import { MdMenuBook } from "react-icons/md";
 //Components
 import MenuItem from "../molecules/Menu/MenuItem";
 
-export default function Menu() {
+//Types
+type Props = {
+	sticky?: boolean;
+};
+
+export default function Menu({ sticky = true }: Props) {
 	return (
-		<div className="fixed w-full flex justify-center top-8 z-10">
+		<div
+			className={`w-full flex justify-center top-8 z-10 ${
+				sticky ? "sticky" : "fixed"
+			}`}
+		>
 			<div className="bg-bright top-8 flex rounded-full gap-2.5 p-2.5">
 				<MenuItem href="/">
 					<HiHome className="text-2xl" /> Ana Sayfa
