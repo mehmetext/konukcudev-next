@@ -30,18 +30,23 @@ export default function AsDeveloperItem({
 		<Container>
 			<ComponentNameContainer name={componentName}>
 				<div
-					className={`flex gap-5 ${reversed ? "flex-row-reverse" : "flex-row"}`}
+					className={`flex flex-col-reverse md:flex-row items-center md:items-start gap-5 ${
+						reversed ? "flex-row-reverse" : "flex-row"
+					}`}
 				>
 					<div className="flex-1 flex flex-col gap-2.5">
-						<h1 className="font-black text-2xl text-primary-dark">
-							Bir <span className={`text-4xl ${textColor}`}>{name}</span>{" "}
+						<h1 className="font-black text-xl sm:text-2xl text-primary-dark">
+							Bir{" "}
+							<span className={`text-2xl sm:text-4xl ${textColor}`}>
+								{name}
+							</span>{" "}
 							olarak...
 						</h1>
 						<div className="flex flex-col gap-4 text-darken">{paragraphs}</div>
 						<div
 							className={`flex flex-col p-4 gap-2.5 bg-opacity-5 rounded-2xl ${bgColor}`}
 						>
-							<h2 className="text-2xl font-black text-primary-dark">
+							<h2 className="text-lg sm:text-2xl leading-tight font-black text-primary-dark">
 								{name} olarak şu teknolojileri kullanıyorum:
 							</h2>
 							<TechStack
@@ -53,7 +58,7 @@ export default function AsDeveloperItem({
 					</div>
 					<div className="flex">
 						<img
-							className="w-[400px] h-[400px]"
+							className="sm:w-[400px] sm:h-[400px]"
 							src={`/images/${image}.svg`}
 							alt={name}
 						/>
