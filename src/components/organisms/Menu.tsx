@@ -17,7 +17,7 @@ export default function Menu({ sticky = true }: Props) {
 				sticky ? "sticky" : "fixed"
 			}`}
 		>
-			<div className="bg-bright top-8 flex rounded-full gap-2.5 p-2.5">
+			<div className="bg-black bg-opacity-5 backdrop-blur-md top-8 flex rounded-full gap-2.5 p-2.5">
 				<MenuItem href="/">
 					<HiHome className="text-2xl" /> Ana Sayfa
 				</MenuItem>
