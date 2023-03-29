@@ -24,7 +24,7 @@ export default function AsDeveloper() {
 							<span className="text-frontend font-black">HTML</span> öğrendim.
 							Sonrasında -Allah’ın emri tabi-{" "}
 							<span className="text-frontend font-black">CSS</span> öğrendim. O
-							sıra siteyi dinamikleştirmek istemiştim ve Javascript öğrenmeden
+							sıra siteyi dinamikleştirmek istemiştim ve Javascript öğrenmeden{" "}
 							<span className="text-frontend font-black">jQuery</span> öğrenmeye
 							çalışmıştım. Yapmak istediklerimi zor da olsa yapabiliyordum fakat
 							ben kim, Javascript öğrenmeden kütüphanesini kullanmak kim? :D
