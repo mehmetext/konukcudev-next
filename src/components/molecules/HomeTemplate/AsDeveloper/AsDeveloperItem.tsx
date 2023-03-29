@@ -2,7 +2,7 @@
 import ComponentNameContainer from "@/components/atoms/ComponentNameContainer";
 import Container from "@/components/atoms/Container";
 import { ReactNode } from "react";
-import TechStack from "../TechStack";
+import TechStack from "../../TechStack";
 
 //Types
 type Props = {

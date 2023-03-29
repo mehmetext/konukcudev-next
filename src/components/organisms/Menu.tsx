@@ -1,9 +1,9 @@
 //Icons
 import { HiHome } from "react-icons/hi";
 import { MdMenuBook } from "react-icons/md";
+import MenuItem from "../molecules/HomeTemplate/Menu/MenuItem";
 
 //Components
-import MenuItem from "../molecules/Menu/MenuItem";
 
 //Types
 type Props = {

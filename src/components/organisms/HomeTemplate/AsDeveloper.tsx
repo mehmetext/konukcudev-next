@@ -1,5 +1,5 @@
 //Components
-import AsDeveloperItem from "@/components/molecules/AsDeveloper/AsDeveloperItem";
+import AsDeveloperItem from "@/components/molecules/HomeTemplate/AsDeveloper/AsDeveloperItem";
 
 export default function AsDeveloper() {
 	return (

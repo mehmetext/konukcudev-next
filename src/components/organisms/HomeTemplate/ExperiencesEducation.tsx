@@ -1,7 +1,7 @@
 //Components
 import Container from "@/components/atoms/Container";
-import Education from "@/components/molecules/ExperiencesEducation/Education";
-import Experiences from "../../molecules/ExperiencesEducation/Experiences";
+import Education from "@/components/molecules/HomeTemplate/ExperiencesEducation/Education";
+import Experiences from "@/components/molecules/HomeTemplate/ExperiencesEducation/Experiences";
 
 export default function ExperiencesEducation() {
 	return (
