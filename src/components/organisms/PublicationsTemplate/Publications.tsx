@@ -1,10 +1,24 @@
 //Components
 import Container from "@/components/atoms/Container";
+import Publication from "@/components/molecules/PublicationsTemplate/Publication";
 
 export default function Publications() {
 	return (
 		<Container>
-			<div className="flex w-full flex-col">de</div>
+			<div className="flex w-full flex-col gap-5">
+				<Publication
+					icon="medium"
+					href="/"
+					title="Flutter’da Klasör Yapısı"
+					date="16 Şubat 2023"
+				/>
+				<Publication
+					icon="instagram"
+					href="/"
+					title="Flutter’da ücretsiz API ile döviz çevirici uygulaması geliştirmek"
+					date="26 Ağustos 2023"
+				/>
+			</div>
 		</Container>
 	);
 }
