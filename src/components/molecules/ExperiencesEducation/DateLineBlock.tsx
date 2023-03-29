@@ -59,19 +59,21 @@ export default function DateLineBlock({
 				)}
 			</div>
 			<div className="flex flex-col gap-[5px]">
-				<div className="text-4xl font-black mt-1">{title}</div>
+				<div className="text-xl sm:text-2xl lg:text-4xl font-black min-h-[48px] flex items-center leading-none">
+					{title}
+				</div>
 				{(location || company) && (
 					<div className="flex gap-x-2.5">
 						{location && (
-							<div className="flex items-center">
+							<div className="flex items-start">
 								<MdLocationPin className="text-primary" />
-								<span className="font-normal text-sm">{location}</span>
+								<span className="font-normal text-sm -mt-px">{location}</span>
 							</div>
 						)}
 						{company && (
-							<div className="flex items-center gap-x-px">
+							<div className="flex items-start gap-x-px">
 								<TbLink className="text-primary" />
-								<Link href={company.href} className="font-black text-sm">
+								<Link href={company.href} className="font-black text-sm -mt-px">
 									{company.title}
 								</Link>
 							</div>

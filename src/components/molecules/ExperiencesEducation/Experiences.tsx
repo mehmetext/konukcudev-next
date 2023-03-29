@@ -25,7 +25,7 @@ export default function Experiences() {
 						href: "https://www.abranero.com",
 						title: "Abranero",
 					}}
-					msg="Üniversite staj dönemi kapsamında stajyer olarak çalıştım. Bu süreçte Flutter ile uygulamalar geliştirmeyi deneyimledim."
+					msg="Üniversite staj dönemi kapsamında stajyer olarak çalıştım. Bu süreçte Flutter ile uygulamalar geliştirmeyi deneyimledim."
 				/>
 				<DateLineBlock
 					startingDate={{ month: "09", year: "2019" }}
