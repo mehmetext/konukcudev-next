@@ -1,5 +1,5 @@
 //Components
-import Footer from "../organisms/Footer";
+import MainLayout from "../layouts/MainLayout";
 import AsDeveloper from "../organisms/HomeTemplate/AsDeveloper";
 import BiKodist from "../organisms/HomeTemplate/BiKodist";
 import DesireToLearn from "../organisms/HomeTemplate/DesireToLearn";
@@ -13,7 +13,7 @@ import WhoAmI from "../organisms/HomeTemplate/WhoAmI";
 
 export default function HomeTemplate() {
 	return (
-		<div className="flex flex-col gap-y-20">
+		<MainLayout>
 			<WelcomeSection />
 			<WhoAmI />
 			<ExperiencesEducation />
@@ -24,7 +24,6 @@ export default function HomeTemplate() {
 			<SocialMedia />
 			<BiKodist />
 			<Email />
-			<Footer />
-		</div>
+		</MainLayout>
 	);
 }
