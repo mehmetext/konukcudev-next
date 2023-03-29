@@ -23,7 +23,7 @@ type Props = {
 };
 
 type DateLineDateType = {
-	month: string;
+	month?: string;
 	year: string;
 };
 
@@ -39,7 +39,7 @@ export default function DateLineBlock({
 	return (
 		<div className="flex gap-x-2.5">
 			<div className="flex flex-col gap-y-2.5 items-center">
-				<div className="shrink-0 flex flex-col py-2 gap-px bg-gradient-to-r from-primary-dark to-primary text-white rounded-full min-w-[48px] items-center justify-center">
+				<div className="shrink-0 flex flex-col py-2 min-h-[48px] gap-px bg-gradient-to-r from-primary-dark to-primary text-white rounded-full min-w-[48px] items-center justify-center">
 					{endingDate && (
 						<>
 							<DateLineBlockDate
@@ -71,8 +71,8 @@ export default function DateLineBlock({
 						{company && (
 							<div className="flex items-center gap-x-px">
 								<TbLink className="text-primary" />
-								<Link href="/" className="font-black text-sm">
-									Komünite
+								<Link href={company.href} className="font-black text-sm">
+									{company.title}
 								</Link>
 							</div>
 						)}

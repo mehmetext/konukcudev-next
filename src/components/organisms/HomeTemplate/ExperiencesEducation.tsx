@@ -1,5 +1,6 @@
 //Components
 import Container from "@/components/atoms/Container";
+import Education from "@/components/molecules/ExperiencesEducation/Education";
 import Experiences from "../../molecules/ExperiencesEducation/Experiences";
 
 export default function ExperiencesEducation() {
@@ -10,7 +11,7 @@ export default function ExperiencesEducation() {
 					<Experiences />
 				</div>
 				<div className="basis-1/2">
-					<Experiences />
+					<Education />
 				</div>
 			</div>
 		</Container>
