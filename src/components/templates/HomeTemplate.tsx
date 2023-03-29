@@ -1,6 +1,7 @@
 //Components
 import Footer from "../organisms/Footer";
 import AsDeveloper from "../organisms/HomeTemplate/AsDeveloper";
+import BiKodist from "../organisms/HomeTemplate/BiKodist";
 import DesireToLearn from "../organisms/HomeTemplate/DesireToLearn";
 import ExperiencesEducation from "../organisms/HomeTemplate/ExperiencesEducation";
 import Others from "../organisms/HomeTemplate/Others";
@@ -20,6 +21,7 @@ export default function HomeTemplate() {
 			<DesireToLearn />
 			<WhatDidIDo />
 			<SocialMedia />
+			<BiKodist />
 			<Footer />
 		</div>
 	);
