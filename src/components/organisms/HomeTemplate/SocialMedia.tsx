@@ -42,6 +42,12 @@ export default function SocialMedia() {
 							href="http://linkedin.com/in/mehmetkonukcu"
 							text="@mehmetkonukcu"
 						/>
+						<SocialMediaButton
+							icon="medium"
+							color="bg-[#000000]"
+							href="https://medium.com/@mehmetext"
+							text="@mehmetext"
+						/>
 					</div>
 				</div>
 			</ComponentNameContainer>
