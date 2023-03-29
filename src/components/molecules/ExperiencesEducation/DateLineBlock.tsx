@@ -73,7 +73,11 @@ export default function DateLineBlock({
 						{company && (
 							<div className="flex items-start gap-x-px">
 								<TbLink className="text-primary" />
-								<Link href={company.href} className="font-black text-sm -mt-px">
+								<Link
+									href={company.href}
+									target="_blank"
+									className="font-black text-sm -mt-px"
+								>
 									{company.title}
 								</Link>
 							</div>
