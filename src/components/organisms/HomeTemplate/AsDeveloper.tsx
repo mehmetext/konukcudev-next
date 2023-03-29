@@ -92,18 +92,7 @@ export default function AsDeveloper() {
 						</p>
 					</>
 				}
-				technologies={[
-					"javascript",
-					"typescript",
-					"react",
-					"redux",
-					"react-query",
-					"nextjs",
-					"tailwind",
-					"html",
-					"css",
-					"firebase",
-				]}
+				technologies={["dart", "flutter", "firebase"]}
 			/>
 		</>
 	);
