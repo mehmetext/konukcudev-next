@@ -11,6 +11,8 @@ module.exports = {
 				"primary-dark": "#000428",
 				bright: "#F7F7F7",
 				darken: "#333",
+				frontend: "#5FBC79",
+				mobile: "#BA68C8",
 			},
 		},
 	},
