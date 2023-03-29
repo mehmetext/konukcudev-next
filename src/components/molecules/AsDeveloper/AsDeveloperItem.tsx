@@ -30,8 +30,8 @@ export default function AsDeveloperItem({
 		<Container>
 			<ComponentNameContainer name={componentName}>
 				<div
-					className={`flex flex-col-reverse md:flex-row items-center md:items-start gap-5 ${
-						reversed ? "flex-row-reverse" : "flex-row"
+					className={`flex flex-col-reverse items-center md:items-start gap-5 ${
+						reversed ? "md:flex-row-reverse" : "md:flex-row"
 					}`}
 				>
 					<div className="flex-1 flex flex-col gap-2.5">
