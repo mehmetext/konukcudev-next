@@ -8,13 +8,13 @@ export default function Publications() {
 			<div className="flex w-full flex-col gap-5">
 				<Publication
 					icon="medium"
-					href="/"
+					href="https://medium.com/@mehmetext/flutterda-klasör-yapısı-f448d31ca43c"
 					title="Flutter’da Klasör Yapısı"
 					date="16 Şubat 2023"
 				/>
 				<Publication
 					icon="instagram"
-					href="/"
+					href="https://www.instagram.com/reel/CTCQcS6g47P"
 					title="Flutter’da ücretsiz API ile döviz çevirici uygulaması geliştirmek"
 					date="26 Ağustos 2023"
 				/>

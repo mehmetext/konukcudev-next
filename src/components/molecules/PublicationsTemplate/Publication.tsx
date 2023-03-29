@@ -19,7 +19,9 @@ export default function Publication({ icon, href, title, date }: Props) {
 				<Icon name={icon} className="h-12 w-12" />
 			</div>
 			<div className="min-h-[48px] flex-1 flex items-center text-primary-dark font-black text-2xl">
-				<Link href={href}>{title}</Link>
+				<Link target="_blank" href={href}>
+					{title}
+				</Link>
 			</div>
 			<div className="min-h-[48px] flex items-center justify-center">
 				<div className="text-sm text-[#636363] px-2.5 py-1 bg-bright rounded-full">
