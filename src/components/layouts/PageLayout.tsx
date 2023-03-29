@@ -24,7 +24,9 @@ export default function PageLayout({
 				<Container>
 					<ComponentNameContainer name={componentName}>
 						<div className="flex flex-col gap-2">
-							<h1 className="text-primary-dark font-black text-5xl">{title}</h1>
+							<h1 className="text-primary-dark font-black text-3xl sm:text-4xl md:text-5xl">
+								{title}
+							</h1>
 							<p className="text-sm text-[#636363]">{subtitle}</p>
 						</div>
 					</ComponentNameContainer>
