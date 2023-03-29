@@ -6,7 +6,7 @@ import MainLayout from "./MainLayout";
 
 //Types
 type Props = {
-	children: ReactNode;
+	children?: ReactNode;
 	componentName: string;
 	title: string;
 	subtitle: string;

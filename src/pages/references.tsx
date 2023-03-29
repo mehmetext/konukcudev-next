@@ -1,22 +1,22 @@
 //Components
-import PublicationsTemplate from "@/components/templates/PublicationsTemplate";
+import ReferencesTemplate from "@/components/templates/ReferencesTemplate";
 
 //Next
 import Head from "next/head";
 
-export default function Publications() {
+export default function References() {
 	return (
 		<>
 			<Head>
-				<title>Yayınlar - Mehmet Konukçu</title>
+				<title>Referanslarım - Mehmet Konukçu</title>
 				<meta
 					name="description"
-					content="Yayınlar - Mehmet Konukçu - Personal Website"
+					content="Referanslarım - Mehmet Konukçu - Personal Website"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<PublicationsTemplate />
+			<ReferencesTemplate />
 		</>
 	);
 }

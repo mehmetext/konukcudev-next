@@ -7,7 +7,7 @@ export default function PublicationsTemplate() {
 		<PageLayout
 			componentName="Publications"
 			title="Yayınlar ✍️"
-			subtitle="Farklı platformlarda paylaştığım içerikler"
+			subtitle="Farklı platformlarda paylaştığım içerikleri topladığım bölge"
 		>
 			<Publications />
 		</PageLayout>
