@@ -18,10 +18,10 @@ export default function WhatDidIDo() {
 						Bugüne kadar neler mi yaptım?
 					</h1>
 					<Link
-						href="/"
+						href="/references"
 						className="bg-primary flex items-center text-center justify-center py-4 px-8 rounded-full font-black sm:text-2xl"
 					>
-						Referanslarıma Git (Yakında)
+						Referanslarım
 					</Link>
 				</div>
 			</div>

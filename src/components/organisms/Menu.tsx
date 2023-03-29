@@ -1,5 +1,5 @@
 //Icons
-import { HiHome } from "react-icons/hi";
+import { HiHome, HiTemplate } from "react-icons/hi";
 import { MdMenuBook } from "react-icons/md";
 import MenuItem from "../molecules/HomeTemplate/Menu/MenuItem";
 
@@ -22,12 +22,12 @@ export default function Menu({ sticky = true }: Props) {
 					<HiHome className="sm:text-2xl" />
 					<span className="hidden sm:flex">Ana Sayfa</span>
 				</MenuItem>
-				<MenuItem href="/yayinlar">
+				<MenuItem href="/publications">
 					<MdMenuBook className="sm:text-2xl" />
 					<span className="hidden sm:flex">Yayınlar</span>
 				</MenuItem>
-				<MenuItem href="/referanslarim">
-					<MdMenuBook className="sm:text-2xl" />
+				<MenuItem href="/references">
+					<HiTemplate className="sm:text-2xl" />
 					<span className="hidden sm:flex">Referanslarım</span>
 				</MenuItem>
 			</div>
