@@ -4,6 +4,7 @@ import AsDeveloper from "../organisms/HomeTemplate/AsDeveloper";
 import DesireToLearn from "../organisms/HomeTemplate/DesireToLearn";
 import ExperiencesEducation from "../organisms/HomeTemplate/ExperiencesEducation";
 import Others from "../organisms/HomeTemplate/Others";
+import SocialMedia from "../organisms/HomeTemplate/SocialMedia";
 import WelcomeSection from "../organisms/HomeTemplate/WelcomeSection";
 import WhatDidIDo from "../organisms/HomeTemplate/WhatDidIDo";
 import WhoAmI from "../organisms/HomeTemplate/WhoAmI";
@@ -18,6 +19,7 @@ export default function HomeTemplate() {
 			<Others />
 			<DesireToLearn />
 			<WhatDidIDo />
+			<SocialMedia />
 			<Footer />
 		</div>
 	);
