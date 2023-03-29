@@ -17,15 +17,18 @@ export default function Menu({ sticky = true }: Props) {
 				sticky ? "sticky" : "fixed"
 			}`}
 		>
-			<div className="bg-black bg-opacity-5 backdrop-blur-md top-8 flex rounded-full gap-2.5 p-2.5">
+			<div className="bg-black bg-opacity-5 backdrop-blur-md top-8 flex rounded-full gap-1 p-1 sm:gap-2.5 sm:p-2.5">
 				<MenuItem href="/">
-					<HiHome className="text-2xl" /> Ana Sayfa
+					<HiHome className="sm:text-2xl" />
+					<span className="hidden sm:flex">Ana Sayfa</span>
 				</MenuItem>
 				<MenuItem href="/yayinlar">
-					<MdMenuBook className="text-2xl" /> Yayınlar
+					<MdMenuBook className="sm:text-2xl" />
+					<span className="hidden sm:flex">Yayınlar</span>
 				</MenuItem>
 				<MenuItem href="/referanslarim">
-					<MdMenuBook className="text-2xl" /> Referanslarım
+					<MdMenuBook className="sm:text-2xl" />
+					<span className="hidden sm:flex">Referanslarım</span>
 				</MenuItem>
 			</div>
 		</div>
