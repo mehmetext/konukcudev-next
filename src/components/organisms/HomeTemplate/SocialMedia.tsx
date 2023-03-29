@@ -1,9 +1,7 @@
 //Components
 import ComponentNameContainer from "@/components/atoms/ComponentNameContainer";
 import Container from "@/components/atoms/Container";
-import Icon from "@/components/atoms/Icon";
 import SocialMediaButton from "@/components/atoms/SocialMediaButton";
-import Link from "next/link";
 
 export default function SocialMedia() {
 	return (
