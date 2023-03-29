@@ -5,6 +5,7 @@ import DesireToLearn from "../organisms/HomeTemplate/DesireToLearn";
 import ExperiencesEducation from "../organisms/HomeTemplate/ExperiencesEducation";
 import Others from "../organisms/HomeTemplate/Others";
 import WelcomeSection from "../organisms/HomeTemplate/WelcomeSection";
+import WhatDidIDo from "../organisms/HomeTemplate/WhatDidIDo";
 import WhoAmI from "../organisms/HomeTemplate/WhoAmI";
 
 export default function HomeTemplate() {
@@ -16,6 +17,7 @@ export default function HomeTemplate() {
 			<AsDeveloper />
 			<Others />
 			<DesireToLearn />
+			<WhatDidIDo />
 			<Footer />
 		</div>
 	);
