@@ -7,7 +7,7 @@ export default function Others() {
 		<Container>
 			<ComponentNameContainer name="Others">
 				<div className="bg-bright flex flex-col gap-2.5 sm:gap-5 p-4 sm:p-8 w-full rounded-2xl">
-					<h1 className="text-xl leading-tight sm:text-2xl md:text-4xl font-black text-primary-dark">
+					<h1 className="leading-tight text-2xl md:text-4xl font-black text-primary-dark">
 						Ayrıca şu araçları & teknolojileri kullanabiliyorum:
 					</h1>
 					<TechStack
