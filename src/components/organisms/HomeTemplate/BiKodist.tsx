@@ -11,22 +11,22 @@ export default function BiKodist() {
 					<h1 className="leading-tight text-2xl md:text-4xl font-black text-primary-dark">
 						Bi Kodist Instagram’da! Takip Ediyor Musun? 👀
 					</h1>
-					<div className="flex p-8 gap-8 bg-[#FB5247] bg-opacity-5 rounded-2xl">
-						<div className="flex items-start">
+					<div className="flex p-8 gap-8 bg-[#FB5247] bg-opacity-5 rounded-2xl flex-col md:flex-row">
+						<div className="flex justify-center items-start shrink-0">
 							<img
 								src="/images/bikodist.png"
 								alt="Bi Kodist"
 								className="w-[200px] h-[200px] rounded-full"
 							/>
 						</div>
-						<div className="flex-1 flex flex-col gap-y-2.5">
+						<div className="flex-1 flex flex-col gap-1 sm:gap-y-2.5">
 							<h1 className="leading-tight text-2xl md:text-4xl font-black text-primary-dark">
 								Bi Kodist
 							</h1>
 							<h4 className="text-primary-dark text-opacity-40 text-lg">
 								Kişisel Blog
 							</h4>
-							<ul className="flex flex-col">
+							<ul className="flex flex-col text-sm sm:text-base">
 								<li>• YKS - Bilgisayar Programcılığı (2/2)</li>
 								<li>• DGS - Bilgisayar Mühendisliği (1/4)</li>
 								<li>• React & Next.js ⚛️</li>
