@@ -1,5 +1,5 @@
 //Components
-
+import Continue from "@/components/molecules/HomeTemplate/WelcomeSection/Continue";
 import MehmetKonukcu from "@/components/molecules/HomeTemplate/WelcomeSection/MehmetKonukcu";
 import Saying from "@/components/molecules/HomeTemplate/WelcomeSection/Saying";
 import WelcomeSectionTechStack from "@/components/molecules/HomeTemplate/WelcomeSection/WelcomeSectionTechStack";
@@ -10,6 +10,7 @@ export default function WelcomeSection() {
 			<Saying />
 			<MehmetKonukcu />
 			<WelcomeSectionTechStack />
+			<Continue />
 		</div>
 	);
 }
