@@ -7,7 +7,7 @@ import WelcomeSectionTechStack from "@/components/molecules/HomeTemplate/Welcome
 export default function WelcomeSection() {
 	return (
 		<div className="w-screen h-screen flex flex-col items-center justify-center gap-3 px-4 sm:px-0">
-			<Saying />
+			{/* <Saying /> */}
 			<MehmetKonukcu />
 			<WelcomeSectionTechStack />
 			<Continue />
