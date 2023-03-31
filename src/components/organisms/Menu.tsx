@@ -28,7 +28,7 @@ export default function Menu({ sticky = true }: Props) {
 				</MenuItem>
 				<MenuItem href="/references">
 					<HiTemplate className="sm:text-2xl" />
-					<span className="hidden sm:flex">Referanslarım</span>
+					<span className="hidden sm:flex">Referanslar</span>
 				</MenuItem>
 			</div>
 		</div>
