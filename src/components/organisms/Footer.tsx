@@ -18,7 +18,11 @@ export default function Footer() {
 					</Link>
 				</div>
 				<div className="flex flex-col items-center text-lg">
-					&<div className="font-black">designed and coded with ❤️</div>
+					&
+					<div className="font-black flex gap-x-2">
+						designed and coded with{" "}
+						<div className="animate-heart-attack">❤️</div>
+					</div>
 				</div>
 			</div>
 		</Container>
