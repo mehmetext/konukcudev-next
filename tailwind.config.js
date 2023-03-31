@@ -22,9 +22,17 @@ module.exports = {
 					"45%": { transform: "scale(1.5)" },
 					"75%": { transform: "scale(1)" },
 				},
+				"go-down": {
+					"0%": { transform: "translateY(-10px)", opacity: 1 },
+					"10%": { transform: "translateY(0px)", opacity: 1 },
+					"30%": { transform: "translateY(-10px)", opacity: 1 },
+					"45%": { transform: "translateY(0px)", opacity: 1 },
+					"100%": { transform: "translateY(-10px)", opacity: 1 },
+				},
 			},
 			animation: {
 				"heart-attack": "heart-attack 1.25s infinite",
+				"go-down": "go-down 1.25s infinite",
 			},
 		},
 	},
