@@ -8,7 +8,7 @@ export default function References() {
 	return (
 		<>
 			<Head>
-				<title>Referanslarım - Mehmet Konukçu</title>
+				<title>Referanslar - Mehmet Konukçu</title>
 				<meta
 					name="description"
 					content="Referanslar - Mehmet Konukçu - Personal Website"
