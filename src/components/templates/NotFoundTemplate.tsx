@@ -7,15 +7,15 @@ export default function NotFoundTemplate() {
 		<PageLayout
 			componentName="NotFound"
 			title="Oops 😳"
-			subtitle="404! Page not found..."
+			subtitle="404! Böyle bi' sayfa yok..."
 			centerHeading
 		>
 			<Container>
 				<div className="flex items-center justify-center">
 					<div className="sm:text-lg">
-						Kenetlenmişsin kalbime!
+						Kenetlenmişsin kalbime! İlmek ilmek,
 						<br />
-						İlmek ilmek işlenmiş gibisin hasretinle yüreğime.
+						İşlenmiş gibisin hasretinle yüreğime.
 						<br />
 						Nereye böyle? Bileyim söyle...
 					</div>
