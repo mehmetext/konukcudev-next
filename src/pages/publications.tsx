@@ -9,11 +9,11 @@ export default function Publications() {
 		<>
 			<Head>
 				<title>Yayınlar - Mehmet Konukçu</title>
+				<meta name="description" content="Yayınlar - Mehmet Konukçu" />
 				<meta
-					name="description"
-					content="Yayınlar - Mehmet Konukçu - Personal Website"
+					name="viewport"
+					content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 				/>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<PublicationsTemplate />

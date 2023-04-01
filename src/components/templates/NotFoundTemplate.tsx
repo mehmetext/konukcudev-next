@@ -4,7 +4,12 @@ import PageLayout from "../layouts/PageLayout";
 
 export default function NotFoundTemplate() {
 	return (
-		<PageLayout componentName="NotFound" title="Oops 😳" centerHeading>
+		<PageLayout
+			componentName="NotFound"
+			title="Oops 😳"
+			subtitle="404! Page not found..."
+			centerHeading
+		>
 			<Container>
 				<div className="flex items-center justify-center">
 					<div className="sm:text-lg">

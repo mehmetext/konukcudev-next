@@ -7,11 +7,11 @@ export default function NotFound() {
 		<>
 			<Head>
 				<title>Oops! - Mehmet Konukçu</title>
+				<meta name="description" content="404 - Mehmet Konukçu" />
 				<meta
-					name="description"
-					content="Yayınlar - Mehmet Konukçu - Personal Website"
+					name="viewport"
+					content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 				/>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<NotFoundTemplate />
