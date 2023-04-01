@@ -11,7 +11,7 @@ export default function References() {
 				<title>Referanslarım - Mehmet Konukçu</title>
 				<meta
 					name="description"
-					content="Referanslarım - Mehmet Konukçu - Personal Website"
+					content="Referanslar - Mehmet Konukçu - Personal Website"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
