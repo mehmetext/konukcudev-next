@@ -16,7 +16,7 @@ export default function Publications() {
 					icon="instagram"
 					href="https://www.instagram.com/reel/CTCQcS6g47P"
 					title="Flutter’da ücretsiz API ile döviz çevirici uygulaması geliştirmek"
-					date="26 Ağustos 2023"
+					date="26 Ağustos 2022"
 				/>
 			</div>
 		</Container>
