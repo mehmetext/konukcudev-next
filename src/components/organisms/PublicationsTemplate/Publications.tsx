@@ -8,6 +8,12 @@ export default function Publications() {
 			<div className="flex w-full flex-col gap-5">
 				<Publication
 					icon="medium"
+					href="https://medium.com/@mehmetext/react-next-js-ve-tailwind-css-ile-animasyonlu-açılır-kapanır-div-nasıl-yapılır-635f8161b2f4"
+					title="React (Next.js) ve Tailwind CSS ile Animasyonlu Açılır Kapanır div Nasıl Yapılır?"
+					date="3 Nisan 2023"
+				/>
+				<Publication
+					icon="medium"
 					href="https://medium.com/@mehmetext/flutterda-klasör-yapısı-f448d31ca43c"
 					title="Flutter’da Klasör Yapısı"
 					date="16 Şubat 2023"
