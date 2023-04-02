@@ -1,9 +1,9 @@
 //Icons
 import { HiHome, HiTemplate } from "react-icons/hi";
 import { MdMenuBook } from "react-icons/md";
-import MenuItem from "../molecules/HomeTemplate/Menu/MenuItem";
 
 //Components
+import MenuItem from "../molecules/HomeTemplate/Menu/MenuItem";
 
 //Types
 type Props = {
@@ -13,7 +13,7 @@ type Props = {
 export default function Menu({ sticky = true }: Props) {
 	return (
 		<div
-			className={`w-full flex justify-center top-8 z-10 ${
+			className={`w-full flex justify-center z-10 py-8 top-0 ${
 				sticky ? "sticky" : "fixed"
 			}`}
 		>

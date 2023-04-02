@@ -13,10 +13,12 @@ type Props = {
 
 export default function MainLayout({ children, stickyMenu }: Props) {
 	return (
-		<div className="flex flex-col gap-y-20">
+		<>
 			<Menu sticky={stickyMenu} />
-			{children}
-			<Footer />
-		</div>
+			<div className="flex flex-col gap-y-20">
+				{children}
+				<Footer />
+			</div>
+		</>
 	);
 }
