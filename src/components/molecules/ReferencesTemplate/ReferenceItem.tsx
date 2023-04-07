@@ -4,12 +4,14 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 
 //Components
 import Accordion from "../Accordion";
+import TechStack from "../TechStack";
 
 //Types
 type Props = {
 	reference: {
 		image: string;
 		name: string;
+		technologies: string[];
 	};
 };
 
@@ -50,7 +52,11 @@ export default function ReferenceItem({ reference }: Props) {
 						}}
 						content={
 							<div className="px-2.5 pb-2.5">
-								<p>Lorem ipsum dolor sit amet.</p>
+								<TechStack
+									items={reference.technologies}
+									itemClassName="w-5 h-5"
+									gapClassName="gap-0.5"
+								/>
 							</div>
 						}
 					/>
