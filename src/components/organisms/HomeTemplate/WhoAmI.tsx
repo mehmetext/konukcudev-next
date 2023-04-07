@@ -18,7 +18,7 @@ export default function WhoAmI() {
 						/>
 					</div>
 					<div className="flex flex-col gap-2.5">
-						<h1 className="font-black text-center md:text-left text-xl sm:text-4xl text-darken">
+						<h1 className="font-black text-center md:text-left text-xl sm:text-4xl text-primary-dark">
 							Selam, Ben <span className="text-primary">Mehmet</span>! 💫
 						</h1>
 						<SyntaxHighlighter
@@ -34,7 +34,7 @@ export default function WhoAmI() {
 							const Mehmet = ["Frontend Developer", "Mobile Application
 							Developer"];
 						</SyntaxHighlighter>
-						<p className="text-darken">
+						<p className="text-custom-gray text-sm">
 							2001 yılının Temmuz ayının 12. günü, hayalleri peşinde koşmak ve
 							hayallerine ulaşmak için dünyaya gelen Mehmet, işte benim.
 							Aksaray'da doğdum. Hobilerimden ve yapmaktan hoşlandığım şeylerden

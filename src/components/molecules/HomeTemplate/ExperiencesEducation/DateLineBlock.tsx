@@ -59,7 +59,7 @@ export default function DateLineBlock({
 				)}
 			</div>
 			<div className="flex flex-col gap-[5px]">
-				<div className="text-xl sm:text-2xl lg:text-4xl font-black min-h-[48px] flex items-center leading-none">
+				<div className="text-xl sm:text-2xl lg:text-4xl font-black min-h-[48px] flex items-center leading-none text-primary-dark">
 					{title}
 				</div>
 				{(location || company) && (
@@ -67,7 +67,9 @@ export default function DateLineBlock({
 						{location && (
 							<div className="flex items-start">
 								<MdLocationPin className="text-primary" />
-								<span className="font-normal text-sm -mt-px">{location}</span>
+								<span className="font-normal text-primary-dark text-sm -mt-px">
+									{location}
+								</span>
 							</div>
 						)}
 						{company && (
@@ -76,7 +78,7 @@ export default function DateLineBlock({
 								<Link
 									href={company.href}
 									target="_blank"
-									className="font-black text-sm -mt-px"
+									className="font-black text-primary-dark text-sm -mt-px"
 								>
 									{company.title}
 								</Link>
@@ -84,7 +86,7 @@ export default function DateLineBlock({
 						)}
 					</div>
 				)}
-				<div className="text-darken text-sm">{msg}</div>
+				<div className="text-custom-gray text-sm">{msg}</div>
 			</div>
 		</div>
 	);

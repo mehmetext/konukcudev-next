@@ -20,7 +20,7 @@ export default function MenuItem({ href, children }: Props) {
 			className={`shrink-0 flex items-center justify-center text-center font-black gap-1 p-3 sm:py-3 sm:px-4 rounded-full ${
 				isActive
 					? "bg-gradient-to-r from-primary-dark to-primary text-white"
-					: "bg-white text-primary-dark"
+					: "bg-white text-custom-gray"
 			}`}
 		>
 			{children}

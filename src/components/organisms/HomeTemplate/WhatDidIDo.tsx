@@ -21,7 +21,7 @@ export default function WhatDidIDo() {
 						href="/references"
 						className="bg-primary flex items-center text-center justify-center py-4 px-8 rounded-full font-black sm:text-2xl"
 					>
-						Referanslarım
+						Referanslar
 					</Link>
 				</div>
 			</div>

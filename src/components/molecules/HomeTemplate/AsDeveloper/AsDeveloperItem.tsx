@@ -42,7 +42,9 @@ export default function AsDeveloperItem({
 							</span>{" "}
 							olarak...
 						</h1>
-						<div className="flex flex-col gap-4 text-darken">{paragraphs}</div>
+						<div className="flex flex-col gap-4 text-custom-gray text-sm">
+							{paragraphs}
+						</div>
 						<div
 							className={`flex flex-col p-4 gap-2.5 bg-opacity-5 rounded-2xl ${bgColor}`}
 						>

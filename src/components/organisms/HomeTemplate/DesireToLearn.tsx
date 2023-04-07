@@ -15,7 +15,7 @@ export default function DesireToLearn() {
 					</h1>
 					<div className="w-full relative">
 						<div className="w-1/2 sm:w-1/3 flex flex-col gap-0.5">
-							<div className="flex justify-between font-black text-xs text-primary-dark px-4">
+							<div className="flex justify-between font-black text-xs text-custom-gray px-4">
 								<span>0%</span>
 								<span>100%</span>
 							</div>
