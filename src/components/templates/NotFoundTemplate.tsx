@@ -12,7 +12,7 @@ export default function NotFoundTemplate() {
 		>
 			<Container>
 				<div className="flex items-center justify-center">
-					<div className="sm:text-lg">
+					<div className="text-custom-gray">
 						Kenetlenmişsin kalbime! İlmek ilmek,
 						<br />
 						İşlenmiş gibisin hasretinle yüreğime.
