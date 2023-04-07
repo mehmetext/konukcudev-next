@@ -24,7 +24,7 @@ export default function Publication({ icon, href, title, date }: Props) {
 				</Link>
 			</div>
 			<div className="hidden sm:flex items-start sm:pt-2.5">
-				<div className="text-sm text-[#636363] px-2.5 py-1 bg-bright rounded-full">
+				<div className="text-xs text-[#636363] px-2.5 py-1 bg-bright rounded-full">
 					{date}
 				</div>
 			</div>
