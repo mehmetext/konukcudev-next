@@ -33,7 +33,7 @@ export default function ReferenceItem({ reference }: Props) {
 										{reference.name}
 									</div>
 									<div
-										className="cursor-pointer relative"
+										className="cursor-pointer relative text-custom-gray"
 										onClick={() => toggleIsOpen()}
 									>
 										<FiInfo
