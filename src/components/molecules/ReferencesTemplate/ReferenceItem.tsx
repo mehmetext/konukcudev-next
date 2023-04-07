@@ -1,5 +1,8 @@
 //Icons
 import { FiInfo } from "react-icons/fi";
+import { AiOutlineCloseCircle } from "react-icons/ai";
+
+//Components
 import Accordion from "../Accordion";
 
 //Types
@@ -28,10 +31,19 @@ export default function ReferenceItem({ reference }: Props) {
 										{reference.name}
 									</div>
 									<div
-										className="cursor-pointer"
+										className="cursor-pointer relative"
 										onClick={() => toggleIsOpen()}
 									>
-										<FiInfo />
+										<FiInfo
+											className={`transition duration-300 ${
+												isOpen ? "scale-0" : "scale-100"
+											}`}
+										/>
+										<AiOutlineCloseCircle
+											className={`transition duration-300 absolute top-0 ${
+												isOpen ? "scale-100" : "scale-0"
+											}`}
+										/>
 									</div>
 								</div>
 							);
