@@ -1,5 +1,6 @@
 //Icons
 import { FiInfo } from "react-icons/fi";
+import Accordion from "../Accordion";
 
 //Types
 type Props = {
@@ -19,12 +20,28 @@ export default function ReferenceItem({ reference }: Props) {
 			/>
 			<div className="absolute top-0 left-0 w-full h-full flex items-end">
 				<div className="bg-bright bg-opacity-90 backdrop-blur-md flex flex-col w-full">
-					<div className="flex justify-between items-center gap-2.5 p-2.5">
-						<div className="text-primary-dark font-black sm:text-xl">
-							{reference.name}
-						</div>
-						<FiInfo />
-					</div>
+					<Accordion
+						header={(toggleIsOpen, isOpen) => {
+							return (
+								<div className="flex justify-between items-center gap-2.5 p-2.5">
+									<div className="text-primary-dark font-black sm:text-xl">
+										{reference.name}
+									</div>
+									<div
+										className="cursor-pointer"
+										onClick={() => toggleIsOpen()}
+									>
+										<FiInfo />
+									</div>
+								</div>
+							);
+						}}
+						content={
+							<div className="px-2.5 pb-2.5">
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						}
+					/>
 				</div>
 			</div>
 		</div>
