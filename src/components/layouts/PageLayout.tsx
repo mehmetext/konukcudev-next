@@ -33,7 +33,7 @@ export default function PageLayout({
 							<h1 className="text-primary-dark font-black text-3xl sm:text-4xl md:text-5xl">
 								{title}
 							</h1>
-							{subtitle && <p className="text-sm text-[#636363]">{subtitle}</p>}
+							{subtitle && <p className="text-[#636363]">{subtitle}</p>}
 						</div>
 					</ComponentNameContainer>
 				</Container>
