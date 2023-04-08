@@ -15,7 +15,7 @@ type Props = {
 		image: string;
 		name: string;
 		technologies: string[];
-		content: ReactNode;
+		content?: ReactNode;
 	};
 };
 

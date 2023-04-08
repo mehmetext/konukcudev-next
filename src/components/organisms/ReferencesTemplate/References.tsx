@@ -35,12 +35,24 @@ export default function References() {
 				/>
 				<ReferenceItem
 					reference={{
-						image: "kendine.jpg",
-						name: "Kendine Tema (MyBB)",
-						technologies: ["html", "css", "javascript"],
+						image: "sprien.jpg",
+						name: "Sprien",
+						technologies: ["dart", "flutter", "firebase"],
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">MyBB falan filan</p>
+								<p className="text-xs text-custom-gray">
+									Yabancı dil pratiği yapabildiğimiz bir uygulamadır.
+								</p>
+								<p className="text-xs text-custom-gray">
+									Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok
+									iyi kaptım.
+								</p>
+								<Button
+									target="_blank"
+									href="https://play.google.com/store/apps/details?id=com.konukcustudio.sprien"
+								>
+									Google Play Store
+								</Button>
 							</>
 						),
 					}}
