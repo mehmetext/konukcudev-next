@@ -3,6 +3,7 @@ import { FiInfo } from "react-icons/fi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { TbLink } from "react-icons/tb";
 import { BiGitRepoForked } from "react-icons/bi";
+import { BsImage } from "react-icons/bs";
 
 //Components
 import Accordion from "../Accordion";
@@ -48,20 +49,25 @@ export default function ReferenceItem({ reference }: Props) {
 											</Link>
 										)}
 									</div>
-									<div
-										className="cursor-pointer relative text-custom-gray"
-										onClick={() => toggleIsOpen()}
-									>
-										<FiInfo
-											className={`transition duration-300 ${
-												isOpen ? "scale-0" : "scale-100"
-											}`}
-										/>
-										<AiOutlineCloseCircle
-											className={`transition duration-300 absolute top-0 ${
-												isOpen ? "scale-100" : "scale-0"
-											}`}
-										/>
+									<div className="flex gap-2.5 text-custom-gray">
+										<Link href={`/images/${reference.image}`} target="_blank">
+											<BsImage />
+										</Link>
+										<div
+											className="cursor-pointer relative"
+											onClick={() => toggleIsOpen()}
+										>
+											<FiInfo
+												className={`transition duration-300 ${
+													isOpen ? "scale-0" : "scale-100"
+												}`}
+											/>
+											<AiOutlineCloseCircle
+												className={`transition duration-300 absolute top-0 ${
+													isOpen ? "scale-100" : "scale-0"
+												}`}
+											/>
+										</div>
 									</div>
 								</div>
 							);
