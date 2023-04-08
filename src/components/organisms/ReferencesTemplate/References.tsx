@@ -9,6 +9,30 @@ export default function References() {
 			<div className="flex w-full flex-wrap gap-5">
 				<ReferenceItem
 					reference={{
+						image: "sprien.jpg",
+						name: "Sprien",
+						technologies: ["dart", "flutter", "firebase"],
+						content: (
+							<>
+								<p className="text-xs text-custom-gray">
+									Yabancı dil pratiği yapabildiğimiz bir uygulamadır.
+								</p>
+								<p className="text-xs text-custom-gray">
+									Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok
+									iyi kaptım.
+								</p>
+								<Button
+									target="_blank"
+									href="https://play.google.com/store/apps/details?id=com.konukcustudio.sprien"
+								>
+									Google Play Store
+								</Button>
+							</>
+						),
+					}}
+				/>
+				<ReferenceItem
+					reference={{
 						image: "fotonot.jpg",
 						name: "Fotonot",
 						technologies: ["dart", "flutter"],
@@ -33,26 +57,18 @@ export default function References() {
 						),
 					}}
 				/>
+
 				<ReferenceItem
 					reference={{
-						image: "sprien.jpg",
-						name: "Sprien",
-						technologies: ["dart", "flutter", "firebase"],
+						image: "calcubody.jpg",
+						name: "CalcuBody",
+						technologies: ["dart", "flutter"],
 						content: (
 							<>
 								<p className="text-xs text-custom-gray">
-									Yabancı dil pratiği yapabildiğimiz bir uygulamadır.
+									Kayda değer geliştirdiğim ilk projedir. Çok basit, sadece
+									vücut kitle indeksi hesaplayan bir uygulamadır.
 								</p>
-								<p className="text-xs text-custom-gray">
-									Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok
-									iyi kaptım.
-								</p>
-								<Button
-									target="_blank"
-									href="https://play.google.com/store/apps/details?id=com.konukcustudio.sprien"
-								>
-									Google Play Store
-								</Button>
 							</>
 						),
 					}}
