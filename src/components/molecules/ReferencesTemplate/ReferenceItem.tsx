@@ -33,7 +33,7 @@ export default function ReferenceItem({ reference }: Props) {
 			<img
 				src={`/images/${reference.image}`}
 				alt={reference.name}
-				className="max-h-[400px]"
+				className="w-full h-full"
 			/>
 			<div className="absolute top-0 left-0 w-full h-full flex items-end">
 				<div className="bg-bright bg-opacity-90 backdrop-blur-md flex flex-col w-full">

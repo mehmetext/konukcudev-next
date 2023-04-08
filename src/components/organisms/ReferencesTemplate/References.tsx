@@ -3,10 +3,21 @@ import Container from "@/components/atoms/Container";
 import ReferenceItem from "@/components/molecules/ReferencesTemplate/ReferenceItem";
 import Link from "next/link";
 
+//Packages
+import Masonry from "react-masonry-css";
+
 export default function References() {
 	return (
 		<Container>
-			<div className="flex w-full flex-wrap gap-5">
+			<Masonry
+				className="flex gap-5"
+				columnClassName="flex flex-col gap-5"
+				breakpointCols={{
+					default: 3,
+					1280: 2,
+					768: 1,
+				}}
+			>
 				<ReferenceItem
 					reference={{
 						image: "konukcudev-v2.png",
@@ -171,7 +182,7 @@ export default function References() {
 						),
 					}}
 				/>
-			</div>
+			</Masonry>
 		</Container>
 	);
 }
