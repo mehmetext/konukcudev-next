@@ -38,6 +38,7 @@ export default function References() {
 						image: "sprien.jpg",
 						name: "Sprien",
 						technologies: ["dart", "flutter", "firebase"],
+						link: "https://play.google.com/store/apps/details?id=com.konukcustudio.sprien",
 						content: (
 							<>
 								<p className="text-xs text-custom-gray">
@@ -47,12 +48,6 @@ export default function References() {
 									Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok
 									iyi kaptım.
 								</p>
-								<Button
-									target="_blank"
-									href="https://play.google.com/store/apps/details?id=com.konukcustudio.sprien"
-								>
-									Google Play Store
-								</Button>
 							</>
 						),
 					}}
@@ -62,6 +57,7 @@ export default function References() {
 						image: "fotonot.jpg",
 						name: "Fotonot",
 						technologies: ["dart", "flutter"],
+						link: "https://play.google.com/store/apps/details?id=com.mehmetkonukcu.fotonot",
 						content: (
 							<>
 								<p className="text-xs text-custom-gray">
@@ -73,12 +69,6 @@ export default function References() {
 									alabiliyoruz. Ayrıca yalnızca telefon hafızasını kullanır,
 									fotoğraflarınız buluta aktarılmaz!
 								</p>
-								<Button
-									target="_blank"
-									href="https://play.google.com/store/apps/details?id=com.mehmetkonukcu.fotonot"
-								>
-									Google Play Store
-								</Button>
 							</>
 						),
 					}}
