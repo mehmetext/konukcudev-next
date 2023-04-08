@@ -35,7 +35,7 @@ export default function Accordion({ header, content }: Props) {
 			<div
 				ref={contentRef}
 				style={{ maxHeight: height }}
-				className="overflow-hidden transition-all duration-300"
+				className="overflow-y-auto transition-all duration-300"
 			>
 				{content}
 			</div>
