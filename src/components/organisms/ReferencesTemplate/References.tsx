@@ -9,6 +9,26 @@ export default function References() {
 			<div className="flex w-full flex-wrap gap-5">
 				<ReferenceItem
 					reference={{
+						image: "konukcudev-v2.png",
+						name: "konukcu.dev v2",
+						technologies: [
+							"typescript",
+							"react",
+							"nextjs",
+							"tailwind",
+							"figma",
+						],
+						content: (
+							<>
+								<p className="text-xs text-custom-gray">
+									Anlatmaya gerek yok, görüyorsunuz :P
+								</p>
+							</>
+						),
+					}}
+				/>
+				<ReferenceItem
+					reference={{
 						image: "rt-memory-game.png",
 						name: "Memory Game",
 						technologies: ["react", "redux", "tailwind"],
@@ -81,6 +101,20 @@ export default function References() {
 									</Link>{" "}
 									adlı sayfam için geliştirdim, bu proje sayesinde gönderi
 									açıklamalarımı oluşturabiliyorum.
+								</p>
+							</>
+						),
+					}}
+				/>
+				<ReferenceItem
+					reference={{
+						image: "konukcudev-v1.png",
+						name: "konukcu.dev v1",
+						technologies: ["react", "tailwind", "figma"],
+						content: (
+							<>
+								<p className="text-xs text-custom-gray">
+									Kişisel sitemin ilk versiyonudur. Biraz dark takılırdım evet.
 								</p>
 							</>
 						),
