@@ -1,5 +1,4 @@
 //Components
-import Button from "@/components/atoms/Button";
 import Container from "@/components/atoms/Container";
 import ReferenceItem from "@/components/molecules/ReferencesTemplate/ReferenceItem";
 import Link from "next/link";
@@ -8,6 +7,24 @@ export default function References() {
 	return (
 		<Container>
 			<div className="flex w-full flex-wrap gap-5">
+				<ReferenceItem
+					reference={{
+						image: "redux-notes.png",
+						name: "Redux Notes",
+						technologies: ["react", "redux", "tailwind"],
+						repoLink: "https://github.com/mehmetext/redux-notes",
+						link: "https://patika-redux-notes.netlify.app",
+						content: (
+							<>
+								<p className="text-xs text-custom-gray">
+									React ile Redux kullanımını kavradığım ve Tailwind CSS'e giriş
+									yaptığım projedir. Bu projede local storage işlemlerini de
+									öğrendim.
+								</p>
+							</>
+						),
+					}}
+				/>
 				<ReferenceItem
 					reference={{
 						image: "post-desc-generator.png",
