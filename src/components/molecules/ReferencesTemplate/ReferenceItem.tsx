@@ -1,6 +1,8 @@
 //Icons
 import { FiInfo } from "react-icons/fi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { TbLink } from "react-icons/tb";
+import { BiGitRepoForked } from "react-icons/bi";
 
 //Components
 import Accordion from "../Accordion";
@@ -9,6 +11,9 @@ import TechStack from "../TechStack";
 //React
 import { ReactNode } from "react";
 
+//Next
+import Link from "next/link";
+
 //Types
 type Props = {
 	reference: {
@@ -16,6 +21,8 @@ type Props = {
 		name: string;
 		technologies: string[];
 		content?: ReactNode;
+		repoLink?: string;
+		link?: string;
 	};
 };
 
@@ -33,8 +40,13 @@ export default function ReferenceItem({ reference }: Props) {
 						header={(toggleIsOpen, isOpen) => {
 							return (
 								<div className="flex justify-between items-center gap-2.5 p-2.5">
-									<div className="text-primary-dark font-black sm:text-xl">
-										{reference.name}
+									<div className="text-primary-dark font-black sm:text-xl flex items-center gap-1">
+										{reference.name}{" "}
+										{reference.link && (
+											<Link href={reference.link} target="_blank">
+												<TbLink className="text-primary" />
+											</Link>
+										)}
 									</div>
 									<div
 										className="cursor-pointer relative text-custom-gray"
@@ -61,6 +73,22 @@ export default function ReferenceItem({ reference }: Props) {
 									itemClassName="w-5 h-5"
 									gapClassName="gap-0.5"
 								/>
+								{reference.repoLink && (
+									<div className="flex gap-2.5">
+										{reference.repoLink && (
+											<div className="flex items-center gap-x-0.5">
+												<BiGitRepoForked className="text-primary text-base" />{" "}
+												<Link
+													href={reference.repoLink}
+													className="text-sm font-semibold"
+													target="_blank"
+												>
+													Repository
+												</Link>
+											</div>
+										)}
+									</div>
+								)}
 								{reference.content}
 							</div>
 						}

@@ -2,11 +2,37 @@
 import Button from "@/components/atoms/Button";
 import Container from "@/components/atoms/Container";
 import ReferenceItem from "@/components/molecules/ReferencesTemplate/ReferenceItem";
+import Link from "next/link";
 
 export default function References() {
 	return (
 		<Container>
 			<div className="flex w-full flex-wrap gap-5">
+				<ReferenceItem
+					reference={{
+						image: "post-desc-generator.png",
+						name: "Post Description Generator",
+						technologies: ["react"],
+						repoLink: "https://github.com/mehmetext/post-desc-generator-react",
+						link: "https://mehmetext.github.io/post-desc-generator-react/",
+						content: (
+							<>
+								<p className="text-xs text-custom-gray">
+									React öğrenim sürecimde geliştirdiğim ilk web uygulamasıdır.{" "}
+									<Link
+										href="http://instagram.com/bikodist"
+										target="_blank"
+										className="font-bold"
+									>
+										Bi Kodist
+									</Link>{" "}
+									adlı sayfam için geliştirdim, bu proje sayesinde gönderi
+									açıklamalarımı oluşturabiliyorum.
+								</p>
+							</>
+						),
+					}}
+				/>
 				<ReferenceItem
 					reference={{
 						image: "sprien.jpg",
@@ -57,7 +83,6 @@ export default function References() {
 						),
 					}}
 				/>
-
 				<ReferenceItem
 					reference={{
 						image: "calcubody.jpg",
