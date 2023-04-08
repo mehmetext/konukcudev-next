@@ -9,6 +9,24 @@ export default function References() {
 			<div className="flex w-full flex-wrap gap-5">
 				<ReferenceItem
 					reference={{
+						image: "rt-spendmoney.png",
+						name: "Spend Money",
+						technologies: ["react", "redux", "tailwind"],
+						repoLink: "https://github.com/mehmetext/spend-money",
+						link: "https://rt-spendmoney.netlify.app/",
+						content: (
+							<>
+								<p className="text-xs text-custom-gray">
+									Patika.dev kapsamında geliştirdiğim bir projedir. Projeyi ödev
+									olarak aldım ve hünerlerimi göstererek teslim etmek istedim.
+									Bence çok güzel oldu, kullanımı eğlenceli :D
+								</p>
+							</>
+						),
+					}}
+				/>
+				<ReferenceItem
+					reference={{
 						image: "redux-notes.png",
 						name: "Redux Notes",
 						technologies: ["react", "redux", "tailwind"],
