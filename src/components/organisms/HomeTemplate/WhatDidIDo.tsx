@@ -1,8 +1,8 @@
 //Components
 
+import Button from "@/components/atoms/Button";
 import ComponentName from "@/components/atoms/ComponentName";
 import Container from "@/components/atoms/Container";
-import Link from "next/link";
 
 export default function WhatDidIDo() {
 	return (
@@ -17,12 +17,9 @@ export default function WhatDidIDo() {
 					<h1 className="font-black text-2xl sm:text-5xl text-center">
 						Bugüne kadar neler mi yaptım?
 					</h1>
-					<Link
-						href="/references"
-						className="bg-primary flex items-center text-center justify-center py-4 px-8 rounded-full font-black sm:text-2xl"
-					>
+					<Button href="/references" size="big">
 						Referanslar
-					</Link>
+					</Button>
 				</div>
 			</div>
 		</div>
