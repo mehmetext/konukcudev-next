@@ -1,4 +1,5 @@
 //Components
+import Button from "@/components/atoms/Button";
 import Container from "@/components/atoms/Container";
 import ReferenceItem from "@/components/molecules/ReferencesTemplate/ReferenceItem";
 
@@ -22,6 +23,12 @@ export default function References() {
 									alabiliyoruz. Ayrıca yalnızca telefon hafızasını kullanır,
 									fotoğraflarınız buluta aktarılmaz!
 								</p>
+								<Button
+									target="_blank"
+									href="https://play.google.com/store/apps/details?id=com.mehmetkonukcu.fotonot"
+								>
+									Google Play Store
+								</Button>
 							</>
 						),
 					}}
