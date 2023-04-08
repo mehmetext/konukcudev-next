@@ -6,12 +6,16 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import Accordion from "../Accordion";
 import TechStack from "../TechStack";
 
+//React
+import { ReactNode } from "react";
+
 //Types
 type Props = {
 	reference: {
 		image: string;
 		name: string;
 		technologies: string[];
+		content: ReactNode;
 	};
 };
 
@@ -51,12 +55,13 @@ export default function ReferenceItem({ reference }: Props) {
 							);
 						}}
 						content={
-							<div className="px-2.5 pb-2.5">
+							<div className="px-2.5 pb-2.5 flex flex-col gap-2.5">
 								<TechStack
 									items={reference.technologies}
 									itemClassName="w-5 h-5"
 									gapClassName="gap-0.5"
 								/>
+								{reference.content}
 							</div>
 						}
 					/>
