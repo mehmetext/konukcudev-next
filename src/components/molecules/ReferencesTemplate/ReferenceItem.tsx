@@ -36,7 +36,7 @@ export default function ReferenceItem({ reference }: Props) {
 				className="w-full h-full"
 			/>
 			<div className="absolute top-0 left-0 w-full h-full flex items-end">
-				<div className="bg-bright bg-opacity-90 backdrop-blur-md flex flex-col w-full max-h-full overflow-y-scroll">
+				<div className="bg-bright flex flex-col w-full max-h-full overflow-y-scroll">
 					<Accordion
 						header={(toggleIsOpen, isOpen) => {
 							return (
