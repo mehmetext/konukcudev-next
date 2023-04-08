@@ -73,7 +73,7 @@ export default function ReferenceItem({ reference }: Props) {
 							);
 						}}
 						content={
-							<div className="px-2.5 pb-2.5 flex flex-col gap-2.5">
+							<div className="px-2.5 pb-2.5 flex flex-col gap-2.5 text-custom-gray text-sm">
 								<TechStack
 									items={reference.technologies}
 									itemClassName="w-5 h-5"
@@ -86,7 +86,7 @@ export default function ReferenceItem({ reference }: Props) {
 												<BiGitRepoForked className="text-primary text-base" />{" "}
 												<Link
 													href={reference.repoLink}
-													className="text-sm font-semibold"
+													className="text-sm font-semibold text-primary-dark"
 													target="_blank"
 												>
 													Repository

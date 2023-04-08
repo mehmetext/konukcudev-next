@@ -20,9 +20,7 @@ export default function References() {
 						],
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
-									Anlatmaya gerek yok, görüyorsunuz :P
-								</p>
+								<p>Anlatmaya gerek yok, görüyorsunuz :P</p>
 							</>
 						),
 					}}
@@ -36,7 +34,7 @@ export default function References() {
 						link: "https://rt-memory-game.netlify.app/",
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									Patika.dev kapsamında geliştirdiğim bir projedir. Projeyi
 									geliştirirken zorlanmıştım, gerçekten gelişimim açısından
 									harika bir proje oldu.
@@ -54,7 +52,7 @@ export default function References() {
 						link: "https://rt-spendmoney.netlify.app/",
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									Patika.dev kapsamında geliştirdiğim bir projedir. Projeyi ödev
 									olarak aldım ve hünerlerimi göstererek teslim etmek istedim.
 									Bence çok güzel oldu, kullanımı eğlenceli :D
@@ -72,7 +70,7 @@ export default function References() {
 						link: "https://patika-redux-notes.netlify.app",
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									React ile Redux kullanımını kavradığım ve Tailwind CSS'e giriş
 									yaptığım projedir. Bu projede local storage işlemlerini de
 									öğrendim.
@@ -90,7 +88,7 @@ export default function References() {
 						link: "https://mehmetext.github.io/post-desc-generator-react/",
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									React öğrenim sürecimde geliştirdiğim ilk web uygulamasıdır.{" "}
 									<Link
 										href="http://instagram.com/bikodist"
@@ -113,7 +111,7 @@ export default function References() {
 						technologies: ["react", "tailwind", "figma"],
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									Kişisel sitemin ilk versiyonudur. Biraz dark takılırdım evet.
 								</p>
 							</>
@@ -128,10 +126,8 @@ export default function References() {
 						link: "https://play.google.com/store/apps/details?id=com.konukcustudio.sprien",
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
-									Yabancı dil pratiği yapabildiğimiz bir uygulamadır.
-								</p>
-								<p className="text-xs text-custom-gray">
+								<p>Yabancı dil pratiği yapabildiğimiz bir uygulamadır.</p>
+								<p>
 									Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok
 									iyi kaptım.
 								</p>
@@ -147,11 +143,11 @@ export default function References() {
 						link: "https://play.google.com/store/apps/details?id=com.mehmetkonukcu.fotonot",
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									Flutter öğrenim sürecimde Google Play Store’da bir uygulamam
 									olması için geliştirdiğim bir projedir.
 								</p>
-								<p className="text-xs text-custom-gray">
+								<p>
 									Fotonot sayesinde hızlıca çektiğimiz fotoğrafa not
 									alabiliyoruz. Ayrıca yalnızca telefon hafızasını kullanır,
 									fotoğraflarınız buluta aktarılmaz!
@@ -167,7 +163,7 @@ export default function References() {
 						technologies: ["dart", "flutter"],
 						content: (
 							<>
-								<p className="text-xs text-custom-gray">
+								<p>
 									Kayda değer geliştirdiğim ilk projedir. Çok basit, sadece
 									vücut kitle indeksi hesaplayan bir uygulamadır.
 								</p>
