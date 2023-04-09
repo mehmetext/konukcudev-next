@@ -55,7 +55,7 @@ export default function DateLineBlock({
 					/>
 				</div>
 				{!hideLine && (
-					<div className="w-px flex-1 border-l border-dashed border-l-darken"></div>
+					<div className="w-px flex-1 border-l border-primary border-dashed border-l-darken"></div>
 				)}
 			</div>
 			<div className="flex flex-col gap-[5px]">
