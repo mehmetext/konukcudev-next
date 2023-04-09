@@ -6,7 +6,7 @@ export default function WelcomeSectionTechStack() {
 	return (
 		<ComponentNameContainer name="TechStack">
 			<TechStack
-				itemClassName="h-6 w-6 md:h-8 md:w-8 lg:h-12 lg:w-12"
+				itemClassName="h-8 w-8 lg:h-12 lg:w-12"
 				items={[
 					"dart",
 					"flutter",
@@ -24,6 +24,8 @@ export default function WelcomeSectionTechStack() {
 					"figma",
 					"photoshop",
 					"xd",
+					"slack",
+					"linear",
 				]}
 				centered
 			/>

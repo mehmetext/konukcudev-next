@@ -24,6 +24,8 @@ export default function Others() {
 							"gitlab",
 							"sourcetree",
 							"postman",
+							"slack",
+							"linear",
 						]}
 					/>
 				</div>
