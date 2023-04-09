@@ -50,6 +50,11 @@ export default function References() {
 									geliştirirken zorlanmıştım, gerçekten gelişimim açısından
 									harika bir proje oldu.
 								</p>
+								<p>
+									Memory Game, hafıza oyunudur. Açtığımız 2 kart aynıysa puan
+									kazanıyoruz, farklıysa puan kaybediyoruz. Eğer yalnızca 1 kart
+									açtıysak geri kapatabiliyoruz. Hadi oynayın! :)
+								</p>
 							</>
 						),
 					}}
@@ -67,6 +72,12 @@ export default function References() {
 									Patika.dev kapsamında geliştirdiğim bir projedir. Projeyi ödev
 									olarak aldım ve hünerlerimi göstererek teslim etmek istedim.
 									Bence çok güzel oldu, kullanımı eğlenceli :D
+								</p>
+								<p>
+									Bill Gates abimizin bitmek bilmeyen parasını harcamaya
+									çalıştığımız bir uygulamadır. Satın alımlarınızı yaptıktan
+									sonra aşağıdaki fişten nelerden ne kadar aldığınızı
+									görmelisiniz...
 								</p>
 							</>
 						),
@@ -119,11 +130,14 @@ export default function References() {
 					reference={{
 						image: "konukcudev-v1.png",
 						name: "konukcu.dev v1",
+						link: "https://konukcudev.netlify.app",
 						technologies: ["react", "tailwind", "figma"],
 						content: (
 							<>
 								<p>
-									Kişisel sitemin ilk versiyonudur. Biraz dark takılırdım evet.
+									Kişisel sitemin ilk versiyonudur. Biraz dark takılırdım, evet.
+									Tek sayflık bir React projesiydi. Uzun bir süre bu tasarımı
+									kullandım ama yenilik şart! :D
 								</p>
 							</>
 						),
@@ -137,7 +151,13 @@ export default function References() {
 						link: "https://play.google.com/store/apps/details?id=com.konukcustudio.sprien",
 						content: (
 							<>
-								<p>Yabancı dil pratiği yapabildiğimiz bir uygulamadır.</p>
+								<p>
+									Yabancı dil pratiği yapabildiğimiz bir uygulamadır. Ana
+									sayfada kullanıcılar eşleşen dillere ve son aktifliğe göre
+									sıralanır. Kullanıcılar birbirlerine mesaj, sesli mesaj,
+									fotoğraf, GIF vb. gönderebilir. Ayrıca kullanıcı profiline
+									hakkında mesajı ve ses kaydı ekleyebilir!
+								</p>
 								<p>
 									Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok
 									iyi kaptım.
