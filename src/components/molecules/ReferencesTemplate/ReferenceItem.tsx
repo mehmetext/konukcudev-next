@@ -36,7 +36,7 @@ export default function ReferenceItem({ reference }: Props) {
 				className="w-full h-full"
 			/>
 			<div className="absolute top-0 left-0 w-full h-full flex items-end">
-				<div className="bg-bright bg-opacity-90 backdrop-blur-md flex flex-col w-full max-h-full overflow-y-scroll">
+				<div className="bg-bright flex flex-col w-full max-h-full overflow-y-scroll">
 					<Accordion
 						header={(toggleIsOpen, isOpen) => {
 							return (
@@ -58,12 +58,12 @@ export default function ReferenceItem({ reference }: Props) {
 											onClick={() => toggleIsOpen()}
 										>
 											<FiInfo
-												className={`transition duration-300 ${
+												className={`transition duration-300 delay-300 ${
 													isOpen ? "scale-0" : "scale-100"
 												}`}
 											/>
 											<AiOutlineCloseCircle
-												className={`transition duration-300 absolute top-0 ${
+												className={`transition duration-300 delay-300 absolute top-0 ${
 													isOpen ? "scale-100" : "scale-0"
 												}`}
 											/>

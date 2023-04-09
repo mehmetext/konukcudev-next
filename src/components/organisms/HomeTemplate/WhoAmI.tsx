@@ -12,7 +12,7 @@ export default function WhoAmI() {
 				<div className="bg-bright w-full p-4 md:p-8 rounded-2xl md:rounded-tr-[96px] flex gap-4 md:gap-8 flex-col md:flex-row">
 					<div className="shrink-0 flex justify-center">
 						<img
-							className="w-[180px] h-[180px] rounded-2xl"
+							className="w-60 h-60 rounded-2xl"
 							src="/images/profile.jpeg"
 							alt="Me!"
 						/>
