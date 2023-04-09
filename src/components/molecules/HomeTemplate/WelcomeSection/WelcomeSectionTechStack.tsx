@@ -24,6 +24,11 @@ export default function WelcomeSectionTechStack() {
 					"figma",
 					"photoshop",
 					"xd",
+					"git",
+					"github",
+					"gitlab",
+					"postman",
+					"sourcetree",
 					"slack",
 					"linear",
 				]}
