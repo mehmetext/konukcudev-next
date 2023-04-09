@@ -58,12 +58,12 @@ export default function ReferenceItem({ reference }: Props) {
 											onClick={() => toggleIsOpen()}
 										>
 											<FiInfo
-												className={`transition duration-300 ${
+												className={`transition duration-300 delay-300 ${
 													isOpen ? "scale-0" : "scale-100"
 												}`}
 											/>
 											<AiOutlineCloseCircle
-												className={`transition duration-300 absolute top-0 ${
+												className={`transition duration-300 delay-300 absolute top-0 ${
 													isOpen ? "scale-100" : "scale-0"
 												}`}
 											/>
