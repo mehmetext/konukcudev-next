@@ -49,7 +49,7 @@ export default function WhoAmI() {
 							şeyler beni daha çok mutlu eder. Meraklıyımdır, yeni şeyler
 							öğrenmeyi seviyorum. “İCAT ÇIKARMA MEHMET” diyenlere inat her
 							zaman en güncel teknolojiyi araştırmayı ve hayatımıza entegre
-							etmeyi savunuyorum, savunacağım.
+							etmeyi hep savundum, hala savunuyorum, daima savunacağım.
 						</p>
 					</div>
 				</div>
