@@ -1,3 +1,5 @@
+import { LegacyRef, forwardRef } from "react";
+
 //Types
 type Props = {
 	className?: string;
@@ -7,15 +9,19 @@ type Props = {
 //36, 48, 72
 //4xl, 5xl, 7xl
 
-export default function Icon({ className, name }: Props) {
+const Icon = forwardRef<HTMLDivElement, Props>(function (
+	{ className, name },
+	ref
+) {
 	return (
-		<div className={className}>
+		<div ref={ref} className={className}>
 			<img
 				className="w-full h-full"
 				src={`images/icons/${name}.svg`}
 				alt={name}
-				title={name}
 			/>
 		</div>
 	);
-}
+});
+
+export default Icon;

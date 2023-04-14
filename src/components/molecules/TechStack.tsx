@@ -1,4 +1,9 @@
-import Icon from "@/components/atoms/Icon";
+//Tippy
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+
+//Components
+import Icon from "../atoms/Icon";
 
 //Types
 type Props = {
@@ -21,7 +26,9 @@ export default function TechStack({
 			}`}
 		>
 			{items.map((tech, i) => (
-				<Icon key={i} name={tech} className={itemClassName} />
+				<Tippy key={i} content={tech} placement="bottom">
+					<Icon name={tech} className={itemClassName} />
+				</Tippy>
 			))}
 		</div>
 	);
