@@ -8,6 +8,12 @@ export default function Publications() {
 			<div className="flex w-full flex-col gap-5">
 				<Publication
 					icon="medium"
+					href="https://medium.com/@mehmetext/next-js-react-ve-tailwind-css-ile-varyantlara-sahip-componentler-geliştirmek-a13a8d814557"
+					title="Next.js (React) ve Tailwind CSS ile Varyantlara Sahip Componentler Geliştirmek"
+					date="7 Mayıs 2023"
+				/>
+				<Publication
+					icon="medium"
 					href="https://medium.com/@mehmetext/react-next-js-ve-tailwind-css-ile-animasyonlu-açılır-kapanır-div-nasıl-yapılır-635f8161b2f4"
 					title="React (Next.js) ve Tailwind CSS ile Animasyonlu Açılır Kapanır div Nasıl Yapılır?"
 					date="3 Nisan 2023"
