@@ -9,11 +9,9 @@ import { BsImage } from "react-icons/bs";
 import Accordion from "../Accordion";
 import TechStack from "../TechStack";
 
-//React
-import { ReactNode } from "react";
-
 //Next
 import Link from "next/link";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 //Types
 type Props = {
@@ -21,7 +19,7 @@ type Props = {
 		image: string;
 		name: string;
 		technologies: string[];
-		content?: ReactNode;
+		content?: string;
 		repoLink?: string;
 		link?: string;
 	};
@@ -95,7 +93,11 @@ export default function ReferenceItem({ reference }: Props) {
 										)}
 									</div>
 								)}
-								{reference.content}
+								{reference.content && (
+									<article className="prose-sm prose-a:font-bold">
+										<ReactMarkdown>{reference.content}</ReactMarkdown>
+									</article>
+								)}
 							</div>
 						}
 					/>
