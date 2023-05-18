@@ -42,10 +42,10 @@ export default function BiKodist() {
 								Takip Et
 							</Link>
 							<div className="bg-[#FB5247] bg-opacity-10 font-black text-lg text-darken px-6 py-2 rounded-full flex items-center justify-center text-center">
-								130+ gönderi
+								140+ gönderi
 							</div>
 							<div className="bg-[#FB5247] bg-opacity-10 font-black text-lg text-darken px-6 py-2 rounded-full flex items-center justify-center text-center">
-								3.900+ takipçi
+								3.800+ takipçi
 							</div>
 						</div>
 					</div>
