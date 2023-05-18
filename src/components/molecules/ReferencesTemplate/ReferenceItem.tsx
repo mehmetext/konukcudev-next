@@ -11,7 +11,8 @@ import TechStack from "../TechStack";
 
 //Next
 import Link from "next/link";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Tippy from "@tippyjs/react";
+import ReactMarkdown from "react-markdown";
 
 //Types
 type Props = {
@@ -48,9 +49,11 @@ export default function ReferenceItem({ reference }: Props) {
 										)}
 									</div>
 									<div className="flex gap-2.5 text-custom-gray">
-										<Link href={`/images/${reference.image}`} target="_blank">
-											<BsImage />
-										</Link>
+										<Tippy content="Orijinal Boyut">
+											<Link href={`/images/${reference.image}`} target="_blank">
+												<BsImage />
+											</Link>
+										</Tippy>
 										<div
 											className="cursor-pointer relative"
 											onClick={() => toggleIsOpen()}
