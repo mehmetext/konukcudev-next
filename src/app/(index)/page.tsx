@@ -20,17 +20,19 @@ export default function Home() {
   return (
     <>
       <Menu sticky={false} />
-      <WelcomeSection />
-      <WhoAmI />
-      <ExperiencesEducation />
-      <AsDeveloper />
-      <Others />
-      <DesireToLearn />
-      <WhatDidIDo />
-      <SocialMedia />
-      <BiKodist />
-      <PrideSection />
-      <Email />
+      <main className="flex flex-col gap-20">
+        <WelcomeSection />
+        <WhoAmI />
+        <ExperiencesEducation />
+        <AsDeveloper />
+        <Others />
+        <DesireToLearn />
+        <WhatDidIDo />
+        <SocialMedia />
+        <BiKodist />
+        <PrideSection />
+        <Email />
+      </main>
     </>
   );
 }

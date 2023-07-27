@@ -8,7 +8,7 @@ export default function PageLayout({
   return (
     <>
       <Menu />
-      {children}
+      <main className="flex flex-col gap-20">{children}</main>
     </>
   );
 }
