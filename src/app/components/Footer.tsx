@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <Container>
+    <Container as="footer">
       <div className="flex flex-col items-center gap-y-2.5 mb-20">
         <Icon name="SLogo" />
         <div className="h-2.5 w-[15px] bg-bright rounded-full"></div>
