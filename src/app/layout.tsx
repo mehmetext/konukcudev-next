@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className="font-nunito font-semibold flex flex-col gap-20">
-        {children}
+        <main className="flex flex-col gap-20">{children}</main>
         <Footer />
       </body>
     </html>
