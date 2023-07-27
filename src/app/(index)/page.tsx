@@ -1,3 +1,9 @@
+import WelcomeSection from "./components/WelcomeSection";
+
 export default function Home() {
-  return <main>konukcudev</main>;
+  return (
+    <>
+      <WelcomeSection />
+    </>
+  );
 }
