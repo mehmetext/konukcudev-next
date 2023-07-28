@@ -1,6 +1,6 @@
 import Container from "@/components/Container";
-import PageTitle from "../components/PageTitle";
-import Menu from "./components/Menu";
+import Menu from "@/components/Menu";
+import PageTitle from "@/components/PageTitle";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

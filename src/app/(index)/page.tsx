@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Menu from "../components/Menu";
 import AsDeveloper from "./components/AsDeveloper/AsDeveloper";
 import BiKodist from "./components/BiKodist";
 import DesireToLearn from "./components/DesireToLearn";
@@ -11,6 +10,7 @@ import SocialMedia from "./components/SocialMedia/SocialMedia";
 import WelcomeSection from "./components/WelcomeSection";
 import WhatDidIDo from "./components/WhatDidIDo";
 import WhoAmI from "./components/WhoAmI";
+import Menu from "@/components/Menu";
 
 export const metadata: Metadata = {
   title: "Ana Sayfa - Mehmet Konukçu",
