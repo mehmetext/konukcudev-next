@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Menu from "@/components/Menu";
 
 export const metadata: Metadata = {
   title: "Mehmet Konukçu",
@@ -21,7 +22,8 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className="font-nunito font-semibold">
-        {children}
+        <Menu />
+        <main className="flex flex-col gap-20">{children}</main>
         <Footer />
       </body>
     </html>
