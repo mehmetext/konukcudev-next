@@ -1,5 +1,4 @@
 import Container from "@/components/Container";
-import Menu from "@/components/Menu";
 import PageTitle from "@/components/PageTitle";
 import { Metadata } from "next";
 
