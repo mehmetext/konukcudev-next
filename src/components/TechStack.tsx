@@ -1,8 +1,3 @@
-"use client";
-
-//Tippy
-import Tippy from "@tippyjs/react";
-import "tippy.js/dist/tippy.css";
 import Icon from "./Icon";
 
 //Types
@@ -26,9 +21,7 @@ export default function TechStack({
       }`}
     >
       {items.map((tech, i) => (
-        <Tippy key={i} content={tech} placement="bottom">
-          <Icon name={tech} className={itemClassName} />
-        </Tippy>
+        <Icon name={tech} className={itemClassName} />
       ))}
     </div>
   );

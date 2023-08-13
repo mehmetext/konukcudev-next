@@ -6,7 +6,6 @@ import { BiGitRepoForked } from "react-icons/bi";
 import { BsImage } from "react-icons/bs";
 
 import Link from "next/link";
-import Tippy from "@tippyjs/react";
 import ReactMarkdown from "react-markdown";
 import Accordion from "@/components/Accordion";
 import TechStack from "@/components/TechStack";
@@ -46,11 +45,9 @@ export default function ReferenceItem({ reference }: Props) {
                     )}
                   </div>
                   <div className="flex gap-2.5 text-custom-gray">
-                    <Tippy content="Orijinal Boyut">
-                      <Link href={`/images/${reference.image}`} target="_blank">
-                        <BsImage />
-                      </Link>
-                    </Tippy>
+                    <Link href={`/images/${reference.image}`} target="_blank">
+                      <BsImage />
+                    </Link>
                     <div
                       className="cursor-pointer relative"
                       onClick={() => toggleIsOpen()}
