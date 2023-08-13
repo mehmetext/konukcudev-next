@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import PageTitle from "../../components/PageTitle";
 import ReferencesComponent from "./components/ReferencesComponent";
+import PageTitle from "@/components/PageTitle";
 
 export const metadata: Metadata = {
   title: "Referanslar - Mehmet Konukçu",
