@@ -7,6 +7,12 @@ export default function Publications() {
       <div className="flex w-full flex-col gap-5">
         <Publication
           icon="medium"
+          href="https://medium.com/@mehmetext/react-js-ts-ve-tailwind-css-ile-pagination-componenti-geliştirmek-b25bc4cc1bbc"
+          title="React.js (TS) ve Tailwind CSS ile Pagination Componenti Geliştirmek"
+          date="14 Ağustos 2023"
+        />
+        <Publication
+          icon="medium"
           href="https://medium.com/@mehmetext/next-js-react-ve-tailwind-css-ile-varyantlara-sahip-componentler-geliştirmek-a13a8d814557"
           title="Next.js (React) ve Tailwind CSS ile Varyantlara Sahip Componentler Geliştirmek"
           date="7 Mayıs 2023"
