@@ -21,7 +21,7 @@ export default function TechStack({
       }`}
     >
       {items.map((tech, i) => (
-        <Icon name={tech} className={itemClassName} />
+        <Icon key={i} name={tech} className={itemClassName} />
       ))}
     </div>
   );
