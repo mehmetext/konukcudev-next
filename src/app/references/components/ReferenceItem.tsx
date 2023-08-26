@@ -11,6 +11,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import Accordion from "@/components/Accordion";
 import TechStack from "@/components/TechStack";
+import { motion } from "framer-motion";
 
 //Types
 type Props = {
@@ -26,7 +27,13 @@ type Props = {
 
 export default function ReferenceItem({ reference }: Props) {
   return (
-    <div className="md:break-inside-avoid rounded-lg overflow-hidden flex border border-bright relative">
+    <motion.div
+      variants={{
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      className="md:break-inside-avoid rounded-lg overflow-hidden flex border border-bright relative"
+    >
       <img
         src={`/images/${reference.image}`}
         alt={reference.name}
@@ -102,6 +109,6 @@ export default function ReferenceItem({ reference }: Props) {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

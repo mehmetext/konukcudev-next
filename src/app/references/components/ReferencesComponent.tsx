@@ -1,5 +1,8 @@
+"use client";
+
 import ReferenceItem from "./ReferenceItem";
 import Container from "@/components/Container";
+import { motion } from "framer-motion";
 
 const references: {
   image: string;
@@ -99,11 +102,21 @@ Fotonot sayesinde hızlıca çektiğimiz fotoğrafa not alabiliyoruz. Ayrıca ya
 export default function ReferencesComponent() {
   return (
     <Container>
-      <div className="columns-1 sm:columns-2 lg:columns-3">
+      <motion.div
+        variants={{
+          hidden: {},
+          visible: {
+            transition: { delayChildren: 0.2, staggerChildren: 0.05 },
+          },
+        }}
+        initial="hidden"
+        animate="visible"
+        className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5"
+      >
         {references.map((reference, i) => (
           <ReferenceItem key={i} reference={reference} />
         ))}
-      </div>
+      </motion.div>
     </Container>
   );
 }
