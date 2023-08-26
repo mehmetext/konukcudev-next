@@ -1,6 +1,3 @@
-"use client";
-
-import Masonry from "react-masonry-css";
 import ReferenceItem from "./ReferenceItem";
 import Container from "@/components/Container";
 
@@ -102,19 +99,11 @@ Fotonot sayesinde hızlıca çektiğimiz fotoğrafa not alabiliyoruz. Ayrıca ya
 export default function ReferencesComponent() {
   return (
     <Container>
-      <Masonry
-        className="flex gap-5"
-        columnClassName="flex flex-col gap-5"
-        breakpointCols={{
-          default: 3,
-          1280: 2,
-          768: 1,
-        }}
-      >
+      <div className="columns-1 sm:columns-2 lg:columns-3">
         {references.map((reference, i) => (
           <ReferenceItem key={i} reference={reference} />
         ))}
-      </Masonry>
+      </div>
     </Container>
   );
 }

@@ -1,3 +1,5 @@
+"use client";
+
 //Icons
 import { FiInfo } from "react-icons/fi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -24,7 +26,7 @@ type Props = {
 
 export default function ReferenceItem({ reference }: Props) {
   return (
-    <div className="rounded-lg overflow-hidden flex border border-bright relative">
+    <div className="md:break-inside-avoid rounded-lg overflow-hidden flex border border-bright relative">
       <img
         src={`/images/${reference.image}`}
         alt={reference.name}
