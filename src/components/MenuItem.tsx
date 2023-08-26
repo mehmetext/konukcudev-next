@@ -19,7 +19,7 @@ export default function MenuItem({ href, children }: Props) {
       href={href}
       className={cn(
         "relative shrink-0 flex items-center justify-center text-center font-black gap-1 p-3 sm:py-3 sm:px-4 rounded-full transition",
-        { "text-white": isActive }
+        { "text-white": isActive, "bg-white": !isActive }
       )}
     >
       {children}
