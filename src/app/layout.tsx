@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="tr">
       <body className={cn(nunito.className, "font-semibold")}>
         <Menu />
-        <main className="flex flex-col gap-20">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>

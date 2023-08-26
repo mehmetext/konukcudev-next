@@ -4,12 +4,15 @@ import { HiHome, HiTemplate } from "react-icons/hi";
 import { MdMenuBook } from "react-icons/md";
 import MenuItem from "./MenuItem";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
 
 export default function Menu() {
   const pathname = usePathname();
 
   return (
-    <div
+    <motion.div
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
       className={`w-full flex justify-center z-10 py-8 top-0 pointer-events-none ${
         pathname !== "/" ? "sticky" : "fixed"
       }`}
@@ -28,6 +31,6 @@ export default function Menu() {
           <span className="hidden sm:flex">Referanslar</span>
         </MenuItem>
       </div>
-    </div>
+    </motion.div>
   );
 }
