@@ -2,6 +2,13 @@ import { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
+import { Nunito } from "next/font/google";
+import cn from "@/lib/utils/cn";
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["200", "400", "600", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Mehmet Konukçu",
@@ -21,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className="font-nunito font-semibold">
+      <body className={cn(nunito.className, "font-semibold")}>
         <Menu />
         <main className="flex flex-col gap-20">{children}</main>
         <Footer />
