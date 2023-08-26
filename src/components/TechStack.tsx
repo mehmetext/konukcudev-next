@@ -1,6 +1,8 @@
-import Icon from "./Icon";
+"use client";
 
-//Types
+import Icon from "./Icon";
+import { motion } from "framer-motion";
+
 type Props = {
   itemClassName?: string;
   gapClassName?: string;
@@ -15,14 +17,36 @@ export default function TechStack({
   centered = false,
 }: Props) {
   return (
-    <div
+    <motion.div
+      variants={{
+        hidden: {},
+        visible: {
+          transition: { delayChildren: 0.2, staggerChildren: 0.03 },
+        },
+      }}
+      initial="hidden"
+      animate="visible"
       className={`flex flex-wrap ${gapClassName} ${
         centered ? "justify-center" : ""
       }`}
     >
       {items.map((tech, i) => (
-        <Icon key={i} name={tech} className={itemClassName} />
+        <motion.div
+          key={i}
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: 20,
+            },
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+        >
+          <Icon name={tech} className={itemClassName} />
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 }
