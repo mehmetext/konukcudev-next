@@ -11,8 +11,8 @@ export default function Menu() {
 
   return (
     <motion.div
-      initial={{ scale: 0 }}
-      animate={{ scale: 1 }}
+      initial={{ top: -100 }}
+      animate={{ top: 0 }}
       className={`w-full flex justify-center z-10 py-8 top-0 pointer-events-none ${
         pathname !== "/" ? "sticky" : "fixed"
       }`}
