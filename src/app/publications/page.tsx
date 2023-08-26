@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import PublicationsComponent from "./components/PublicationsComponent";
 import PageTitle from "@/components/PageTitle";
-import PageMotion from "@/components/PageMotion";
+import OpacityFromTop from "@/components/motions/OpacityFromTop";
 
 export const metadata: Metadata = {
   title: "Yayınlar - Mehmet Konukçu",
@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 
 export default function Publications() {
   return (
-    <PageMotion>
+    <OpacityFromTop>
       <PageTitle
         componentName="Publications"
         title="Yayınlar ✍️"
         subtitle="Farklı platformlarda paylaştığım içerikleri topladığım bölge"
       />
       <PublicationsComponent />
-    </PageMotion>
+    </OpacityFromTop>
   );
 }

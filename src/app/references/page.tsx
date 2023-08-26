@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import ReferencesComponent from "./components/ReferencesComponent";
 import PageTitle from "@/components/PageTitle";
-import PageMotion from "@/components/PageMotion";
+import OpacityFromTop from "@/components/motions/OpacityFromTop";
 
 export const metadata: Metadata = {
   title: "Referanslar - Mehmet Konukçu",
@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 
 export default function References() {
   return (
-    <PageMotion>
+    <OpacityFromTop>
       <PageTitle
         componentName="References"
         title="Referanslar 🛠️"
         subtitle="Bugüne kadar yaptıklarım ama bazıları"
       />
       <ReferencesComponent />
-    </PageMotion>
+    </OpacityFromTop>
   );
 }

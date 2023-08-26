@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import PageMotion from "@/components/PageMotion";
+import OpacityFromTop from "@/components/motions/OpacityFromTop";
 import PageTitle from "@/components/PageTitle";
 import { Metadata } from "next";
 
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
   return (
-    <PageMotion>
+    <OpacityFromTop>
       <PageTitle
         componentName="NotFound"
         title="Oops 😳"
@@ -27,6 +27,6 @@ export default function NotFound() {
           </div>
         </div>
       </Container>
-    </PageMotion>
+    </OpacityFromTop>
   );
 }

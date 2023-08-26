@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function PageMotion({
+export default function OpacityFromTop({
   children,
 }: {
   children?: React.ReactNode;

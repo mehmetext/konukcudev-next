@@ -10,7 +10,7 @@ import SocialMedia from "./components/SocialMedia/SocialMedia";
 import WelcomeSection from "./components/WelcomeSection";
 import WhatDidIDo from "./components/WhatDidIDo";
 import WhoAmI from "./components/WhoAmI";
-import PageMotion from "@/components/PageMotion";
+import OpacityFromTop from "@/components/motions/OpacityFromTop";
 
 export const metadata: Metadata = {
   title: "Ana Sayfa - Mehmet Konukçu",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <PageMotion>
+    <OpacityFromTop>
       <WelcomeSection />
       <WhoAmI />
       <ExperiencesEducation />
@@ -30,6 +30,6 @@ export default function Home() {
       <BiKodist />
       <PrideSection />
       <Email />
-    </PageMotion>
+    </OpacityFromTop>
   );
 }
