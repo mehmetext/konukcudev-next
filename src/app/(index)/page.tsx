@@ -7,7 +7,7 @@ import ExperiencesEducation from "./components/ExperiencesEducation/ExperiencesE
 import Others from "./components/Others";
 import PrideSection from "./components/PrideSection";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
-import WelcomeSection from "./components/WelcomeSection";
+import WelcomeSection from "./components/WelcomeSection/WelcomeSection";
 import WhatDidIDo from "./components/WhatDidIDo";
 import WhoAmI from "./components/WhoAmI";
 import PageMotion from "@/components/motions/PageMotion";
