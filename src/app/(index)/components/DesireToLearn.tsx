@@ -1,7 +1,10 @@
+"use client";
+
 import ComponentNameContainer from "@/components/ComponentNameContainer";
 import Container from "@/components/Container";
 import WhileInViewScale from "@/components/motions/WhileInViewScale";
 import { TiInfinity } from "react-icons/ti";
+import { motion } from "framer-motion";
 
 export default function DesireToLearn() {
   return (
@@ -21,9 +24,15 @@ export default function DesireToLearn() {
                 <div className="h-12 w-full bg-primary bg-opacity-5 rounded-full border-2 border-dashed border-primary"></div>
               </div>
               <div className="w-full absolute left-2 bottom-2">
-                <div className="w-full bg-primary rounded-full font-black text-xs px-4 py-2 flex justify-end items-center text-white">
+                <motion.div
+                  transition={{ duration: 2, ease: "anticipate" }}
+                  initial={{ width: "10%" }}
+                  whileInView={{ width: "100%" }}
+                  viewport={{ once: true }}
+                  className="w-full bg-primary rounded-full font-black text-xs px-4 py-2 flex justify-end items-center text-white"
+                >
                   <TiInfinity className="text-base" />%
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
