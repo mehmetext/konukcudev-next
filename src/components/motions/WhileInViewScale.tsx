@@ -10,8 +10,8 @@ export default function WhileInViewScale({
   return (
     <motion.main
       transition={{ delay: 0.1 }}
-      initial={{ scale: 0.95, translateY: 0, opacity: 0 }}
-      whileInView={{ scale: 1, translateY: 0, opacity: 1 }}
+      initial={{ translateY: 30, opacity: 0 }}
+      whileInView={{ translateY: 0, opacity: 1 }}
       viewport={{ once: true }}
     >
       {children}
