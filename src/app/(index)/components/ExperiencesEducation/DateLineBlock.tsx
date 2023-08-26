@@ -63,7 +63,7 @@ export default function DateLineBlock({
           {title}
         </div>
         {(location || company) && (
-          <div className="flex gap-x-2.5">
+          <div className="flex gap-x-2.5 gap-y-1 flex-row flex-wrap">
             {location && (
               <div className="flex items-start">
                 <MdLocationPin className="text-primary" />
