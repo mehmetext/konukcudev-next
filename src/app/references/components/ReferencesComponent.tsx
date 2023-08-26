@@ -13,13 +13,13 @@ const references: {
   link?: string;
 }[] = [
   {
-    image: "konukcudev-v2.png",
+    image: "konukcudev-v2.webp",
     name: "konukcu.dev v2",
     technologies: ["typescript", "react", "nextjs", "tailwind", "figma"],
     content: `Anlatmaya gerek yok, görüyorsunuz :P`,
   },
   {
-    image: "rt-memory-game.png",
+    image: "rt-memory-game.webp",
     name: "Memory Game",
     technologies: ["react", "redux", "tailwind"],
     repoLink: "https://github.com/mehmetext/memory-game",
@@ -31,7 +31,7 @@ Memory Game, hafıza oyunudur. Açtığımız 2 kart aynıysa puan kazanıyoruz,
 `,
   },
   {
-    image: "rt-spendmoney.png",
+    image: "rt-spendmoney.webp",
     name: "Spend Money",
     technologies: ["react", "redux", "tailwind"],
     repoLink: "https://github.com/mehmetext/spend-money",
@@ -43,7 +43,7 @@ Bill Gates abimizin bitmek bilmeyen parasını harcamaya çalıştığımız bir
 `,
   },
   {
-    image: "redux-notes.png",
+    image: "redux-notes.webp",
     name: "Redux Notes",
     technologies: ["react", "redux", "tailwind"],
     repoLink: "https://github.com/mehmetext/redux-notes",
@@ -51,7 +51,7 @@ Bill Gates abimizin bitmek bilmeyen parasını harcamaya çalıştığımız bir
     content: `React ile Redux kullanımını kavradığım ve Tailwind CSS'e giriş yaptığım projedir. Bu projede local storage işlemlerini de öğrendim.`,
   },
   {
-    image: "post-desc-generator.png",
+    image: "post-desc-generator.webp",
     name: "Post Description Generator",
     technologies: ["react"],
     repoLink: "https://github.com/mehmetext/post-desc-generator-react",
@@ -62,14 +62,14 @@ açıklamalarımı oluşturabiliyorum.
     `,
   },
   {
-    image: "konukcudev-v1.png",
+    image: "konukcudev-v1.webp",
     name: "konukcu.dev v1",
     link: "https://konukcudev.netlify.app",
     technologies: ["react", "tailwind", "figma"],
     content: `Kişisel sitemin ilk versiyonudur. Biraz dark takılırdım, evet. Tek sayfalık bir React projesiydi. Uzun bir süre bu tasarımı kullandım ama yenilik şart! :D`,
   },
   {
-    image: "sprien.jpg",
+    image: "sprien.webp",
     name: "Sprien",
     technologies: ["dart", "flutter", "firebase"],
     link: "https://play.google.com/store/apps/details?id=com.konukcustudio.sprien",
@@ -80,7 +80,7 @@ Uygulama sayesinde Flutter ile Firebase arasındaki bağı çok iyi kaptım.
 `,
   },
   {
-    image: "fotonot.jpg",
+    image: "fotonot.webp",
     name: "Fotonot",
     technologies: ["dart", "flutter"],
     link: "https://play.google.com/store/apps/details?id=com.mehmetkonukcu.fotonot",
@@ -91,7 +91,7 @@ Fotonot sayesinde hızlıca çektiğimiz fotoğrafa not alabiliyoruz. Ayrıca ya
 `,
   },
   {
-    image: "calcubody.jpg",
+    image: "calcubody.webp",
     name: "CalcuBody",
     technologies: ["dart", "flutter"],
     content: `Kayda değer geliştirdiğim ilk projedir. Çok basit, sadece
