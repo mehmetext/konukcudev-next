@@ -100,7 +100,7 @@ export default function ReferenceItem({ reference }: Props) {
                   </div>
                 )}
                 {reference.content && (
-                  <article className="prose-sm prose-a:font-bold">
+                  <article className="prose-sm prose-a:font-bold max-w-none min-w-0">
                     <ReactMarkdown linkTarget="_blank">
                       {reference.content}
                     </ReactMarkdown>
