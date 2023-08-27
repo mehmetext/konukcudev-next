@@ -57,6 +57,8 @@ export default function AsDeveloper() {
           "html",
           "css",
           "firebase",
+          "supabase",
+          "prisma",
         ]}
       />
       <AsDeveloperItem

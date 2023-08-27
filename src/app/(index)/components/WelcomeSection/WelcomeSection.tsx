@@ -34,6 +34,8 @@ export default function WelcomeSection() {
             "sourcetree",
             "slack",
             "linear",
+            "supabase",
+            "prisma",
           ]}
           centered
         />
