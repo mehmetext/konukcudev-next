@@ -9,7 +9,7 @@ type Props = {
 
 export default function Icon({ className, name }: Props) {
   return (
-    <div className={className}>
+    <div className={className} title={name}>
       <img
         className="w-full h-full"
         src={`images/icons/${name}.svg`}
