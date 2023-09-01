@@ -16,7 +16,7 @@ export default function WhoAmI() {
             <div className="shrink-0 flex justify-center">
               <img
                 className="w-60 h-60 rounded-2xl"
-                src="/images/profile.wepb"
+                src="/images/profile.webp"
                 alt="Mehmet Konukçu"
               />
             </div>
