@@ -5,7 +5,7 @@ import MehmetKonukcu from "./MehmetKonukcu";
 
 export default function WelcomeSection() {
   return (
-    <div className="relative w-screen h-screen flex flex-col items-center justify-center gap-3 px-4 2xl:px-0">
+    <div className="relative w-[100dvw] h-[100dvh] flex flex-col items-center justify-center gap-3 px-4 2xl:px-0">
       <MehmetKonukcu />
       <ComponentNameContainer name="TechStack">
         <TechStack
