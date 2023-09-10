@@ -1,7 +1,5 @@
 import { Metadata } from "next";
 import "./globals.css";
-import Footer from "@/components/Footer";
-import Menu from "@/components/Menu";
 import { Nunito } from "next/font/google";
 import cn from "@/lib/utils/cn";
 
@@ -28,11 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className={cn(nunito.className, "font-semibold")}>
-        <Menu />
-        {children}
-        <Footer />
-      </body>
+      <body className={cn(nunito.className, "font-semibold")}>{children}</body>
     </html>
   );
 }
