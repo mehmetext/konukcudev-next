@@ -1,6 +1,7 @@
 import ComponentNameContainer from "@/components/ComponentNameContainer";
 import Container from "@/components/Container";
 import WhileInViewScale from "@/components/motions/WhileInViewScale";
+import PrideItem from "./PrideItem";
 
 export default function PrideSection() {
   return (
@@ -12,12 +13,16 @@ export default function PrideSection() {
               “Ne mutlu Türk’üm diyene!” ❤️
             </h1>
             <div className="grid md:grid-cols-2 gap-2.5">
-              <div className="flex items-center justify-center p-5 rounded-2xl bg-[#5196D6]">
-                <img src="/images/gokturkce-turk.svg" alt="Göktürkçe Türk" />
-              </div>
-              <div className="flex items-center justify-center p-5 rounded-2xl bg-[#E30A17]">
-                <img src="/images/turk-bayragi.svg" alt="Türk Bayrağı" />
-              </div>
+              <PrideItem
+                icon="/images/gokturkce-turk.svg"
+                alt="Göktürkçe Türk"
+                className="bg-[#5196D6]"
+              />
+              <PrideItem
+                icon="/images/turk-bayragi.svg"
+                alt="Türk Bayrağı"
+                className="bg-[#E30A17]"
+              />
             </div>
           </div>
         </ComponentNameContainer>

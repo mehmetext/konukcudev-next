@@ -5,7 +5,7 @@ import DesireToLearn from "./components/DesireToLearn";
 import Email from "./components/Email";
 import ExperiencesEducation from "./components/ExperiencesEducation/ExperiencesEducation";
 import Others from "./components/Others";
-import PrideSection from "./components/PrideSection";
+import PrideSection from "./components/PrideSection/PrideSection";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
 import WelcomeSection from "./components/WelcomeSection/WelcomeSection";
 import WhatDidIDo from "./components/WhatDidIDo";
