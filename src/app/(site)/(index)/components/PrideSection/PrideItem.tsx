@@ -1,3 +1,6 @@
+"use client";
+
+import Confetti from "@/components/Confetti";
 import cn from "@/lib/utils/cn";
 
 export default function PrideItem({
@@ -10,13 +13,24 @@ export default function PrideItem({
   className?: string;
 }) {
   return (
-    <div
-      className={cn(
-        "flex items-center justify-center p-5 rounded-2xl",
-        className
-      )}
+    <Confetti
+      component={
+        <div className={cn("rounded-md p-2 border border-white", className)}>
+          <img src={icon} alt={alt} className="h-4" />
+        </div>
+      }
     >
-      <img src={icon} alt={alt} />
-    </div>
+      {(onClick) => (
+        <div
+          onClick={onClick}
+          className={cn(
+            "cursor-pointer flex items-center justify-center p-5 rounded-2xl select-none",
+            className
+          )}
+        >
+          <img src={icon} alt={alt} />
+        </div>
+      )}
+    </Confetti>
   );
 }
