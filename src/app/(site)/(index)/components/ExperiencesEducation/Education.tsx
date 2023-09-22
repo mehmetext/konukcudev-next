@@ -7,14 +7,25 @@ export default function Education() {
     <ComponentNameContainer name="Education">
       <div className="flex flex-col gap-y-2.5">
         <DateLineBlock
+          startingDate={{ year: "2023" }}
+          title="Yazılım Mühendisliği"
+          location="Konya, Türkiye"
+          company={{
+            href: "https://www.ktun.edu.tr",
+            title: "Konya Teknik Üniversitesi",
+          }}
+          msg="Ulaşmak istediğim asıl hedefe ulaştım! :) Onca uğraşlar, YKS, DGS, yatay geçişler, dikey geçişler... Hepsi yazılım mühendisliği hayalim içindi."
+        />
+        <DateLineBlock
           startingDate={{ year: "2022" }}
+          endingDate={{ year: "2023" }}
           title="Bilgisayar Mühendisliği"
           location="Konya, Türkiye"
           company={{
             href: "https://www.ktun.edu.tr",
             title: "Konya Teknik Üniversitesi",
           }}
-          msg="Dikey Geçiş Sınavı’nda 781. olarak kayıt olduğum Konya Teknik Üniversitesi’nde hayalim olan Bilgisayar Mühendisliği bölümünü okumaktayım."
+          msg="Dikey Geçiş Sınavı’nda 781. olarak kayıt olduğum Konya Teknik Üniversitesi’nde Bilgisayar Mühendisliği bölümünü kazandım. Ortalamam 3.18 idi."
         />
         <DateLineBlock
           endingDate={{ year: "2022" }}
